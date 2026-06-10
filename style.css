@@ -1,3 +1,11 @@
+body {
+    background-color: #1e1e1e; 
+    color: #f5f5f5;          
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
 
 h1 {
     color: #fff;
@@ -9,6 +17,7 @@ h1 {
     background-color: rgb(45, 184, 89);
     text-align: center;
     border-radius: 12px; 
+    background-color:  transparent;
 }
 
 
@@ -20,8 +29,9 @@ h1 {
 }
 
 p {
-    color: #333; 
     margin-bottom: 20px;
+    color: white;
+    width: 500px;
 }
 
 .text-highlight {
@@ -37,6 +47,8 @@ p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
     transition: transform 0.3s; 
+    display: block;
+    margin: 20px auto;
 }
 
 .text-img:hover {
@@ -74,6 +86,8 @@ p {
 .btn-chronicle {
     background-color: #dca355;
     border: 2px solid #b57c32;
+    color: white;
+    text-decoration: none;
 }
 
 .btn-discord {
@@ -90,3 +104,14 @@ p {
     transform: translateY(2px); 
     box-shadow: 0 2px 0 rgba(0,0,0,0.2); 
 }
+
+.text{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+
+
