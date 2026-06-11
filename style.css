@@ -112,6 +112,18 @@ p {
     border-radius: 8px;
 }
 
+.btn-map {
+    background-color: #dca355;
+    border: 2px solid #b57c32;
+    color: white;
+    text-decoration: none;
+}
 
+.btn-form {
+    background-color: #4CAF50;
+    border: 2px solid #388E3C;
+    color: white;
+    text-decoration: none;
+}
 
 
