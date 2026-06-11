@@ -145,5 +145,12 @@ p {
     align-items: center; 
 }
 
+.btn-ds-map {
+    background-color: #4862c2;
+    border: 2px solid #5865F2;
+    color: white;
+    text-decoration: none;
+}
+
 
 
