@@ -48,31 +48,30 @@
         </p>
     </div>
 
+<script>
+    const serverIP = 'listing-dans.gl.joinmc.link'; 
 
-    <script>
-const serverIP = 'listing-dans.gl.joinmc.link'; 
+    async function checkServerStatus() {
+        try {
+            const response = await fetch(`https://api.mcsrvstat.us/2/${serverIP}`);
+            const data = await response.json();
 
-async function checkServerStatus() {
-    try {
-        const response = await fetch(`https://api.mcsrvstat.us/2/${serverIP}`);
-        const data = await response.json();
+            const statusElement = document.getElementById('server-status');
+            const playersElement = document.getElementById('server-online-players');
 
-        const statusElement = document.getElementById('server-status');
-        const playersElement = document.getElementById('server-online-players');
-
-        if (data.online) {
-            statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
-            playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
-        } else {
-            statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
-            playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+            if (data.online) {
+                statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
+                playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
+            } else {
+                statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
+                playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+            }
+        } catch (error) {
+            document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
         }
-    } catch (error) {
-        document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
     }
-}
 
-checkServerStatus();
+    checkServerStatus();
 </script>
 </body>
 </html>
