@@ -16,6 +16,11 @@
 
     <img src="images/img0.png" alt="img0" class="text-img">
 
+    <div class="server-status-box">
+    <h3>Статус сервера: <span id="server-status">Перевірка...</span></h3>
+    <p id="server-online-players"></p>
+</div>
+
 <div class="server-links">
     <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing" class="btn btn-chronicle" target="_blank">Читати Літопис</a>
     
@@ -43,5 +48,31 @@
         </p>
     </div>
 
+
+    <script>
+const serverIP = 'listing-dans.gl.joinmc.link'; 
+
+async function checkServerStatus() {
+    try {
+        const response = await fetch(`https://api.mcsrvstat.us/2/${serverIP}`);
+        const data = await response.json();
+
+        const statusElement = document.getElementById('server-status');
+        const playersElement = document.getElementById('server-online-players');
+
+        if (data.online) {
+            statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
+            playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
+        } else {
+            statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
+            playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+        }
+    } catch (error) {
+        document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
+    }
+}
+
+checkServerStatus();
+</script>
 </body>
 </html>
