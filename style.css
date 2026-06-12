@@ -152,5 +152,34 @@ p {
     text-decoration: none;
 }
 
+.server-showcase {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  gap: 40px;                     
+  max-width: 1200px;             
+  margin: 40px auto;             
+  padding: 0 20px;
+}
+
+
+.showcase-media, .showcase-widget {
+  flex: 1;                       
+  min-width: 300px;              
+}
+
+
+@media (max-width: 768px) {
+  .server-showcase {
+    flex-direction: center;
+  }
+}
+
+.btn-ds {
+    background-color: #dca355;
+    border: 2px solid #b57c32;
+    color: white;
+    text-decoration: none;
+}
 
 
