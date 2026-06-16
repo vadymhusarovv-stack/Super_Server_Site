@@ -3,9 +3,9 @@
 Ласкаво просимо до офіційного репозиторію веб-порталу нашого Майнкрафт сервера! Цей проєкт містить головну сторінку сервера, технічні модулі, інтеграцію з Discord та нашу власну базу знань (Вікі).
 
 ## 🔗 Швидкі посилання
-* **🌐 Наш Веб-сайт:** [vadymhusarov-stack.github.io/Super_Server_Site](https://vadymhusarov-stack.github.io/Super_Server_Site/)
-* **📖 Бібліотека Королівства (Вікі):** [Перейти до Вікіпедії](https://vadymhusarov-stack.github.io/Super_Server_Site/wiki/)
-* **💬 Наш Discord:** [Приєднатися до спільноти](https://vadymhusarov-stack.github.io/Super_Server_Site/discord.html)
+* **🌐 Наш Веб-сайт:** [vadymhusarov-stack.github.io/Super_Server_Site](https://vadymhusarovv-stack.github.io/Super_Server_Site/)
+* **📖 Бібліотека Королівства (Вікі):** [Перейти до Вікіпедії](https://vadymhusarovv-stack.github.io/Super_Server_Site/wiki/)
+* **💬 Наш Discord:** [Приєднатися до спільноти](https://vadymhusarovv-stack.github.io/Super_Server_Site/discord.html)
 
 ---
 
