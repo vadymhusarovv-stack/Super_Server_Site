@@ -4,6 +4,7 @@
   * [Головна сторінка](home.md)
 
 * **📖 Хроніки (Лор)**
+  * [Для чого ці підрозділи?](chapters/whatisit.md)
   * [Розділ XI: Тривога Титанів](chapters/chapter11.md)
   * [Розділ XXII: Культ Порожнечі](chapters/chapter22.md)
 
