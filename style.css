@@ -182,4 +182,11 @@ p {
     text-decoration: none;
 }
 
+.btn-wiki {
+    background-color: #dca355;
+    border: 2px solid #b57c32;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+}
 
