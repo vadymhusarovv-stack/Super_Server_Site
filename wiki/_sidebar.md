@@ -66,6 +66,7 @@
   * [📚 Daniel Jackson](lore/daniel_jackson.md)
   * [⛏️ Chrome](lore/chrome_res.md)
   * [🤖 Командувач B-0](lore/commander_b0.md)
+  * [🎣 Наглядач Рибальского Причалу](lore/fish.md)
 
 
   * [Культисти](lore/cultists/cultists.md)
@@ -85,7 +86,14 @@
   * [Інші персонажі](lore/armor_stands_decor.md)
 
 * **🗺️ Основні Локації**
-  * [Для чого ці підрозділи?](whatisit/whatisitlocks.md)
+  * [🗺️ Які локаціїї на вас тут чекають?](whatisit/whatisitlocks.md)
+  * [⛩️ Святилище Спокою](locations/shrine_of_peace.md)
+  * [🌌 Головний портал у Незер](locations/nether_portal.md)
+  * [⛏️ Велика Шахта Королівства](locations/grand_mine.md)
+  * [🟡 Золотиста зона](locations/golden_zone.md)
+  * [🟣 Пурпурна зона](locations/purple_zone.md)
+  * [🔴 Червона зона](locations/red_zone.md)
+  * [🟠 Помаранчева зона](locations/orange_zone.md)
 
 * **⚙️ Технічний Довідник**
   * [Для чого ці підрозділи?](whatisit/whatisitteh.md)
