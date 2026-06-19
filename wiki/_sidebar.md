@@ -96,5 +96,9 @@
   * [🟠 Помаранчева зона](locations/orange_zone.md)
 
 * **⚙️ Технічний Довідник**
-  * [Для чого ці підрозділи?](whatisit/whatisitteh.md)
-  * [Варпи та Хоми](tech/warps.md)
+  * [⚙️ Що на вас чекає в довіднику?](whatisit/whatisitteh.md)
+  * [📍 Навігація: Команди, Варпи та Точки Дому](tech/warps.md)
+  * [🔌 Технічне забезпечення](tech/plugins_and_features.md)
+  * [📦 Модифікації світу](tech/datapacks_info.md)
+  * [💾 Резервні копії](tech/backups_info.md)
+  * [📦 Офіційна збірка](tech/client_modpack.md)
