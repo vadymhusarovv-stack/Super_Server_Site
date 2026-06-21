@@ -24,7 +24,7 @@
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
     <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Професія:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Майстер Кирки</td></tr>
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Локація:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Шахти Спавну</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Локація:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Шахти Королівства</td></tr>
     <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Ера:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Перші Чанки</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Партнер:</td><td style="padding: 6px 4px; background: transparent !important; color: #fab387;">Throngar</td></tr>
   </table>
