@@ -16,11 +16,9 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Антоніо) -->
 <div style="background: #11111b; border: 2px solid #e64553; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(230,69,83,0.3);">
   <h3 style="margin-top: 0; text-align: center; color: #e64553; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🟥 Культист Антоніо</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <!-- Сюди додається скріншот Антоніо на фоні лави або незер-цегли -->
     <img src="images/antonio.png" alt="Культист Антоніо" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #e64553;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Служитель, що несе слово Творців</i>
   </div>
@@ -42,7 +40,7 @@
 Антоніо застряг на одному з небезпечних підйомів даху Незеру, перевіряючи міцність бедрокового покриття. Він не може залишити свій пост, але йому вкрай необхідно скоординувати дії з початком колони.
 
 * **Умова старту:** Поговорити з Антоніо на шляху паломництва.
-* **Суть завдання:** Повернутися назад до головного порталу Незеру Королівства, знайти **Культиста-відправника** і передати йому, що Антоніо успішно продовжує рух.
+* **Суть завдання:** Пройти до спавну зайти в портал та знайти **Культиста** і передати йому, що Антоніо успішно продовжує рух.
 * **Мета квесту:** Перевірка здатності гравця орієнтуватися в агресивному середовищі Незеру під ефектами спеки.
 
 ---
