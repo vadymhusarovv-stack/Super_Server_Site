@@ -22,7 +22,7 @@
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
     <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Статус:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Глава Гільдій</td></tr>
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Локація:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Площа Спавну</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Локація:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Головна Площа Королівства</td></tr>
     <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Ера:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Загублена Епоха</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Зв'язок:</td><td style="padding: 6px 4px; background: transparent !important; color: #f38ba8;">Титани</td></tr>
   </table>
