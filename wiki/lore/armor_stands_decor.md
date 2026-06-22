@@ -98,7 +98,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Луффі) -->
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏴‍☠️ Monkey D. Luffy</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -136,7 +135,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс C418) -->
 <div style="background: #11111b; border: 2px solid #89dceb; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,220,235,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89dceb; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎹 C418</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -211,7 +209,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс _PWGood_) -->
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🔑 _PWGood_</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -249,7 +246,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс CraftyMasterman) -->
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⚙️ CraftyMasterman</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -287,7 +283,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс cubicmetre) -->
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏗️ cubicmetre</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -325,7 +320,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс sammyuri) -->
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧠 sammyuri</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -363,7 +357,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс MumboJumbo) -->
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🕵️‍♂️ MumboJumbo</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -401,7 +394,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс SpokeIsHere) -->
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🌀 SpokeIsHere</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -439,7 +431,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Jozzah) -->
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏗️ Jozzah</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -476,7 +467,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Skeleton Miner) -->
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Skeleton Miner</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -514,7 +504,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Григорія) -->
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Вартовий Григорій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -589,7 +578,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Сашка) -->
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🍺 Сашко</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -627,7 +615,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Привида) -->
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">👻 Привид</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -665,7 +652,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Василя) -->
 <div style="background: #11111b; border: 2px solid #94e2d5; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(148,226,213,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #94e2d5; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧪 Науковець Василь</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -703,7 +689,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Олега) -->
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛲ Олег</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -741,7 +726,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Антона) -->
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Антон</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -779,7 +763,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Кирила) -->
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Кирило</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -817,7 +800,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Василя) -->
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Василь</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -929,7 +911,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Анатолія) -->
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Вартовий Анатолій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -967,7 +948,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Ігоря) -->
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">💰 Торговець Ігор</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -1042,7 +1022,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Михайла) -->
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧹 Прибиральник Михайло</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -1117,7 +1096,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Ігоря) -->
 <div style="background: #11111b; border: 2px solid #89dceb; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,220,235,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89dceb; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎣 Рибалка Ігор</h3>
   <div style="text-align: center; margin-bottom: 12px;">
@@ -1145,7 +1123,7 @@
 
 **Рибалка Анатолій** — ключова фігура для масштабного вилову риби. Якщо Ігор покладається на вудку, то Анатолій — справжній експерт із мережами. Він постійно перебуває в русі, перевіряючи снасті та готуючи нові пастки для багатого улову.
 
-Анатолій — енергійний і постійно зайнятий справою. Його мережі, як ми бачимо в image_3a2d07.png, завжди готові до роботи. Він забезпечує стабільність постачання провізії в місті та є неоціненним союзником для тих, хто планує великі експедиції, адже риба від Анатолія — це завжди найнадійніший запас енергії.
+Анатолій — енергійний і постійно зайнятий справою. Його мережі, як ми бачимо, завжди готові до роботи. Він забезпечує стабільність постачання провізії в місті та є неоціненним союзником для тих, хто планує великі експедиції, адже риба від Анатолія — це завжди найнадійніший запас енергії.
 
 🎨 **Характеристики сутності:**
 * 👤 **Візуальний стиль:** Активний рибалка, робота з мережами
@@ -1155,7 +1133,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Анатолія) -->
 <div style="background: #11111b; border: 2px solid #94e2d5; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(148,226,213,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #94e2d5; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🕸️ Рибалка Анатолій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
