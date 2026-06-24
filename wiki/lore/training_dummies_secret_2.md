@@ -16,11 +16,9 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Картка Зниклого Манекена -->
 <div style="background: #181825; border: 2px dashed #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px dashed #f38ba8; padding-bottom: 8px; font-size: 18px;">⚠️ ERROR: dummy2</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <!-- Сюди можна поставити скріншот порожнього місця на арені або силует у лісі -->
     <img src="images/dummy2_missing.png" alt="Файл пошкоджено" style="max-width: 100%; height: auto; border-radius: 4px; filter: grayscale(100%) brightness(50%);" />
     <i style="display: block; font-size: 11px; color: #f38ba8; margin-top: 5px;">[Зображення сутності вилучено з бази даних]</i>
   </div>
