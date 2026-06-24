@@ -16,11 +16,9 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Хрома) -->
 <div style="background: #1e1e2e; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #585b70; padding-bottom: 8px; font-size: 18px;">💎 Хром (Chrome)</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <!-- Заміни шлях до картинки, коли зробиш скріншот біля скринь з рудою -->
     <img src="images/chrome_res.png" alt="Хром" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #45475a;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Науковий чарівник та майстер геології</i>
   </div>
