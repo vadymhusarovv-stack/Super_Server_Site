@@ -15,7 +15,6 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Ярослава) -->
 <div style="background: #1e1e2e; border: 2px solid #585b70; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #585b70; padding-bottom: 8px; font-size: 18px;">🕷️ Павук Ярослав</h3>
   <div style="text-align: center; margin-bottom: 12px;">
