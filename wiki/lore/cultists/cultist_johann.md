@@ -16,11 +16,9 @@
 </td>
 <td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
 
-<!-- Права картка (Інфобокс Йогана) -->
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🌿 Культист Йоган</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <!-- Сюди встановиш скріншот Йогана в підземеллі печери -->
     <img src="images/cultist_johann.png" alt="Культист Йоган" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Проповідник добровільної істини</i>
   </div>
