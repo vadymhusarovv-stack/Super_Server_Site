@@ -1,173 +1,170 @@
 body {
-    background-color: #1e1e1e; 
-    color: #f5f5f5;          
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
-
 
 h1 {
-    color: #fff;
-    font-style: italic;
-    max-width: 400px;
-    margin: 20px auto; 
-    border: 5px solid rgb(203, 99, 99);
-    padding: 30px;
-    background-color: rgb(45, 184, 89);
-    text-align: center;
-    border-radius: 12px; 
-    background-color:  transparent;
+  color: #fff;
+  font-style: italic;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 5px solid rgb(203, 99, 99);
+  padding: 30px;
+  background-color: rgb(45, 184, 89);
+  text-align: center;
+  border-radius: 12px;
+  background-color: transparent;
 }
 
-
 .content {
-    max-width: 800px; 
-    margin: 0 auto;
-    font-family: sans-serif; 
-    line-height: 1.6; 
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.6;
 }
 
 p {
-    margin-bottom: 20px;
-    color: white;
-    width: 500px;
+  margin-bottom: 20px;
+  color: white;
+  width: 500px;
 }
 
 .text-highlight {
-    background-color: greenyellow;
-    font-size: 20px;
-    padding: 15px;
-    border-radius: 8px;
+  background-color: greenyellow;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .text-img {
-    width: 250px;
-    height: auto; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
-    transition: transform 0.3s; 
-    display: block;
-    margin: 20px auto;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: block;
+  margin: 20px auto;
 }
 
 .text-img:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .badge {
-    background-color: #ff6b6b;
-    color: white;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: bold;
+  background-color: #ff6b6b;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .server-links {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 30px auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px auto;
 }
 
 .btn {
-    display: inline-block;
-    padding: 12px 30px;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none; 
-    box-shadow: 0 5px 0 rgba(0,0,0,0.2); 
-    transition: all 0.2s ease; 
+  display: inline-block;
+  padding: 12px 30px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
 }
 
 .btn-chronicle {
-    background-color: #dca355;
-    border: 2px solid #b57c32;
-    color: white;
-    text-decoration: none;
+  background-color: #dca355;
+  border: 2px solid #b57c32;
+  color: white;
+  text-decoration: none;
 }
 
 .btn-discord {
-    background-color: #5865F2;
-    border: 2px solid #404eed;
+  background-color: #5865f2;
+  border: 2px solid #404eed;
 }
 
 .btn:hover {
-    transform: translateY(-3px); 
-    box-shadow: 0 8px 0 rgba(0,0,0,0.15); 
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn:active {
-    transform: translateY(2px); 
-    box-shadow: 0 2px 0 rgba(0,0,0,0.2); 
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 }
 
-.text{
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    border-radius: 8px;
+.text {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 .btn-map {
-    background-color: #dca355;
-    border: 2px solid #b57c32;
-    color: white;
-    text-decoration: none;
+  background-color: #dca355;
+  border: 2px solid #b57c32;
+  color: white;
+  text-decoration: none;
 }
 
 .btn-form {
-    background-color: #4CAF50;
-    border: 2px solid #388E3C;
-    color: white;
-    text-decoration: none;
+  background-color: #4caf50;
+  border: 2px solid #388e3c;
+  color: white;
+  text-decoration: none;
 }
 
 .server-status-box {
-    background-color: #222;
-    border: 2px solid #444;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 20px auto;
-    max-width: 400px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  background-color: #222;
+  border: 2px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .server-status-box h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btn-ds-map {
-    background-color: #4862c2;
-    border: 2px solid #5865F2;
-    color: white;
-    text-decoration: none;
+  background-color: #4862c2;
+  border: 2px solid #5865f2;
+  color: white;
+  text-decoration: none;
 }
 
 .server-showcase {
   display: flex;
-  justify-content: space-between; 
-  align-items: center;           
-  gap: 40px;                     
-  max-width: 1200px;             
-  margin: 40px auto;             
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
   padding: 0 20px;
 }
 
-
-.showcase-media, .showcase-widget {
-  flex: 1;                       
-  min-width: 300px;              
+.showcase-media,
+.showcase-widget {
+  flex: 1;
+  min-width: 300px;
 }
-
 
 @media (max-width: 768px) {
   .server-showcase {
@@ -176,17 +173,28 @@ p {
 }
 
 .btn-ds {
-    background-color: #dca355;
-    border: 2px solid #b57c32;
-    color: white;
-    text-decoration: none;
+  background-color: #dca355;
+  border: 2px solid #b57c32;
+  color: white;
+  text-decoration: none;
 }
 
 .btn-wiki {
-    background-color: #dca355;
-    border: 2px solid #b57c32;
-    color: white;
-    text-decoration: none;
-    box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  background-color: #dca355;
+  border: 2px solid #b57c32;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+.footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-family: sans-serif;
+  line-height: 1.25;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
