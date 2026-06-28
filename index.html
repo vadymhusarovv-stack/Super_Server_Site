@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <a href="map.html" class="btn btn-map">Онлайн Карта</a>
     <a href="chronicle.html" class="btn btn-chronicle">Читати Правила</a>
     <a href="discord.html" class="btn btn-ds">Онлайн учасники Discord</a>
@@ -18,70 +20,93 @@
     <img src="images/img0.png" alt="img0" class="text-img">
 
     <div class="server-status-box">
-    <h3>Статус сервера: <span id="server-status">Перевірка...</span></h3>
-    <p id="server-online-players"></p>
-</div>
+        <h3>Статус сервера: <span id="server-status">Перевірка...</span></h3>
+        <p id="server-online-players"></p>
+    </div>
 
-<div class="server-links">
-    <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing" class="btn btn-chronicle" target="_blank">Читати Літопис</a>
-    
-    <a href="https://discord.gg/XUUGknswwe" class="btn btn-discord" target="_blank">Наш Discord</a>
+    <div class="server-links">
+        <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing"
+            class="btn btn-chronicle" target="_blank">Читати Літопис</a>
 
-    <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0" class="btn btn-form" target="_blank">Наш Форма</a>
-</div>
+        <a href="https://discord.gg/XUUGknswwe" class="btn btn-discord" target="_blank">Наш Discord</a>
 
- <div class="content"> 
-    <p>
-            <span class="badge">Важливо!</span> Через велику кількість данних ми не можемо завантажити усе разом тому нам доведеться частіше робити малі оновлення просимо усіх запастися терпінням!!
+        <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
+            class="btn btn-form" target="_blank">Наш Форма</a>
+    </div>
+
+    <div class="content">
+        <p>
+            <span class="badge">Важливо!</span> Через велику кількість данних ми не можемо завантажити усе разом тому
+            нам доведеться частіше робити малі оновлення просимо усіх запастися терпінням!!
         </p>
         <p class="text">
-           Server IP: listing-dans.gl.joinmc.link
+            Server IP: listing-dans.gl.joinmc.link
         </p>
- </div>
+    </div>
 
 
     <div class="content">
         <p class="text-highlight">
             Вітаємо на сайті сервера! Тут ви знайдете найсвіжіші новини та оновлення.
-        
+
         <p>
-                <span class="badge">Оновлення!</span> Ми щойно запустили нову функцію, яка зробить ваш досвід ще кращим.
+            <span class="badge">Оновлення!</span> Ми щойно запустили нову функцію, яка зробить ваш досвід ще кращим.
 
         <p>
             <span class="badge">Новинка!</span> Додано новий розділ з корисними порадами та гайдами для користувачів.
         </p>
         <p>
-            <span class="badge">Подія!</span> Не пропустіть наш наступний вебінар, де ми розповімо про майбутні плани та відповімо на ваші запитання.
+            <span class="badge">Подія!</span> Не пропустіть наш наступний вебінар, де ми розповімо про майбутні плани та
+            відповімо на ваші запитання.
         </p>
         <p>
-            <span class="badge">Важливо!</span> Зверніть увагу на нові правила користування сайтом, щоб забезпечити безпеку та комфорт для всіх відвідувачів.
+            <span class="badge">Важливо!</span> Зверніть увагу на нові правила користування сайтом, щоб забезпечити
+            безпеку та комфорт для всіх відвідувачів.
         </p>
     </div>
 
-<script>
-const serverIP = 'listing-dans.gl.joinmc.link'; 
+    <script>
+        const serverIP = 'listing-dans.gl.joinmc.link';
 
-async function checkServerStatus() {
-    try {
-        const response = await fetch(`https://api.minetools.eu/ping/${serverIP}`);
-        const data = await response.json();
+        async function checkServerStatus() {
+            try {
+                const response = await fetch(`https://api.minetools.eu/ping/${serverIP}`);
+                const data = await response.json();
 
-        const statusElement = document.getElementById('server-status');
-        const playersElement = document.getElementById('server-online-players');
+                const statusElement = document.getElementById('server-status');
+                const playersElement = document.getElementById('server-online-players');
 
-        if (data.error) {
-            statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
-            playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
-        } else {
-            statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
-            playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
-}
-    } catch (error) {
-        document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
-    }
-}
+                if (data.error) {
+                    statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
+                    playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+                } else {
+                    statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
+                    playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
+                }
+            } catch (error) {
+                document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
+            }
+        }
 
-checkServerStatus();
-</script>
+        checkServerStatus();
+    </script>
+
+
+    <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
+        </p>
+
+        <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
+                style="color: #89b4fa;">Paper
+                1.21.10</span></p>
+
+        <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
+
+            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
+                style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
+        </p>
+    </footer>
+
+
 </body>
+
 </html>
