@@ -11,10 +11,25 @@
 
 <body>
 
+
+
+
+
     <a href="map.html" class="btn btn-map">Онлайн Карта</a>
     <a href="chronicle.html" class="btn btn-chronicle">Читати Правила</a>
     <a href="discord.html" class="btn btn-ds">Онлайн учасники Discord</a>
     <a href="./wiki/" class=" btn btn-wiki">Читати Вікі</a>
+
+    <button id="openModalBtn" class="btn btn-win0">📜 Відкрити Останній Розділ Літопису</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>📖 Сувій Літопису</h2>
+            <p>Тут буде розкішний текст про пригоди мандрівників у Королівстві... (як тільки вийде розділ 23)</p>
+        </div>
+    </div>
+
     <h1>Вас вітає Super Server!!!</h1>
 
     <img src="images/img0.png" alt="img0" class="text-img">
@@ -65,6 +80,24 @@
         </p>
     </div>
 
+
+
+    <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
+        </p>
+
+        <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
+                style="color: #89b4fa;">Paper
+                1.21.10</span></p>
+
+        <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
+
+            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
+                style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
+        </p>
+    </footer>
+
+
+
     <script>
         const serverIP = 'listing-dans.gl.joinmc.link';
 
@@ -91,21 +124,73 @@
         checkServerStatus();
     </script>
 
+    <script>
+        const modal = document.getElementById("myModal");
+        const openBtn = document.getElementById("openModalBtn");
+        const closeBtn = document.querySelector(".close-btn");
 
-    <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
-        </p>
+        openBtn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-        <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
-                style="color: #89b4fa;">Paper
-                1.21.10</span></p>
+        closeBtn.onclick = function () {
+            modal.style.display = "none";
+        }
 
-        <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
-            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
-                style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
-        </p>
-    </footer>
+    <div id="rulesModal" class="modal">
+        <div class="modal-content">
+            <span class="close-rules">&times;</span>
+            <h2>📜 Правила Королівства</h2>
+            <p>Правила можна прочитати у відповідному розділі</p>
+        </div>
+    </div>
 
+    <div id="loreModal" class="modal">
+        <div class="modal-content">
+            <span class="close-lore">&times;</span>
+            <h2>📖 Літопис</h2>
+            <p>Ви можете прочитати літопис сервера на вікі</p>
+        </div>
+    </div>
+
+    <script>
+
+        const firstModal = document.getElementById("rulesModal");
+        const secondModal = document.getElementById("loreModal");
+
+        function openModalsAutomatically() {
+            if (firstModal) {
+                firstModal.style.display = "block";
+            }
+            if (secondModal) {
+                secondModal.style.display = "block";
+            }
+        }
+
+        openModalsAutomatically();
+
+        const closeFirst = document.querySelector(".close-rules");
+        const closeSecond = document.querySelector(".close-lore");
+
+        if (closeFirst) {
+            closeFirst.onclick = function () { firstModal.style.display = "none"; }
+        }
+        if (closeSecond) {
+            closeSecond.onclick = function () { secondModal.style.display = "none"; }
+        }
+
+        window.onclick = function (event) {
+            if (event.target == firstModal) { firstModal.style.display = "none"; }
+            if (event.target == secondModal) { secondModal.style.display = "none"; }
+        }
+    </script>
 
 </body>
 
