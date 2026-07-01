@@ -387,3 +387,7 @@ p {
   border-radius: 12px;
   background-color: transparent;
 }
+
+.category-tag.bild {
+  background-color: rgb(199, 144, 24);
+}
