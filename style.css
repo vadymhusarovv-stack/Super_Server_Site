@@ -374,3 +374,16 @@ p {
   margin-top: 10px;
   color: #e0e0e0;
 }
+
+.server-ip {
+  color: #fff;
+  font-style: italic;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 5px solid rgb(203, 99, 99);
+  padding: 30px;
+  background-color: rgb(45, 184, 89);
+  text-align: center;
+  border-radius: 12px;
+  background-color: transparent;
+}
