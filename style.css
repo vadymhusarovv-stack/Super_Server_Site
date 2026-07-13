@@ -395,3 +395,18 @@ p {
 .btn-secret {
   text-align: center;
 }
+
+.btn-download {
+  background-color: #3c1469;
+  border: 2px solid #261040;
+  color: white;
+}
+
+.btn-download-arg {
+  background-color: #2b2b2b;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px;
+  cursor: pointer;
+  font-family: monospace;
+}

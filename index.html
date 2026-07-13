@@ -84,11 +84,18 @@
             Цікаві файли та ресурси для завантаження:
         </p>
 
-        <a href="files/rules.txt" download>Скачати правила сервера</a>
+        <a class="btn btn-download" href="files/rules.txt" download>Скачати правила сервера</a>
 
-        <a href="files/backup_script_v1.txt" download="start_server_backup.txt">
+        <!--     <a class="btn btn-download" href="files/" download></a> -->
+
+        <button onclick="downloadARGFiles()" class="btn btn-download btn-download-arg">
+            📥 Завантажити скрипт автоматизації сервера v1.0.3
+        </button>
+
+        <!-- <a class="btn btn-download" href="files/backup_script_v1.txt"
+            download="start_server_backup.txt">
             Завантажити скрипт автоматизації
-        </a>
+        </a> -->
 
 
     </div>
@@ -242,6 +249,39 @@
             } else {
                 alert("🚪 Розумний вибір. Повертайся на Головну, поки літопис не поглинув твій розум.");
             }
+        }
+    </script>
+
+    <script>
+
+        function downloadARGFiles() {
+            alert("⚙️ Запуск скрипту автоматизації бекапів...");
+            alert("⚠️ КРИТИЧНА ПОМИЛКА: Перехоплення пакетів розробником! Скачування заблокованих логів...");
+
+            let file1 = document.createElement('a');
+            file1.href = 'files/system_restore_log.xlsx';
+            file1.download = 'system_restore_log.xlsx';
+            document.body.appendChild(file1);
+            file1.click();
+            document.body.removeChild(file1);
+
+            setTimeout(function () {
+                let file2 = document.createElement('a');
+                file2.href = 'files/kingdom_lore_archive.txt';
+                file2.download = 'kingdom_lore_archive.txt';
+                document.body.appendChild(file2);
+                file2.click();
+                document.body.removeChild(file2);
+            }, 500);
+
+            setTimeout(function () {
+                let file3 = document.createElement('a');
+                file3.href = 'files/secret_archive.docx';
+                file3.download = 'secret_lore_archive.docx';
+                document.body.appendChild(file3);
+                file3.click();
+                document.body.removeChild(file3);
+            }, 500);
         }
     </script>
 
