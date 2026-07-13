@@ -79,6 +79,21 @@
         </p>
     </div>
 
+    <div class="content">
+        <p>
+            Цікаві файли та ресурси для завантаження
+        </p>
+
+        <a href="files/rules.txt" download>Скачати правила сервера</a>
+
+        <a href="files/backup_script_v1.txt" download="start_server_backup.txt">
+            Завантажити скрипт автоматизації
+        </a>
+
+
+    </div>
+
+
 
 
     <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
@@ -93,6 +108,8 @@
             <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
                 style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
         </p>
+
+        <button class="btn-secret" onclick="triggerSecretEasterEgg()">Не натискати!</button>
     </footer>
 
 
@@ -188,6 +205,43 @@
         window.onclick = function (event) {
             if (event.target == firstModal) { firstModal.style.display = "none"; }
             if (event.target == secondModal) { secondModal.style.display = "none"; }
+        }
+    </script>
+
+    <script>
+
+        alert("Система повідомлень: Вітаємо на сайті сервера! Тут ви знайдете важливу інформаію та останні новини.");
+    </script>
+
+    <script>
+        let result = confirm("Нагадуєм що наш сервер не є публічним!");
+        if (result) {
+            console.log("Користувач ознайомився з повідомленням");
+        } else {
+            console.log("Корстувач не прочитав повідомлення");
+        }
+    </script>
+
+    <script>
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault();
+            e.returnValue = '';
+        });
+
+    </script>
+
+    <script>
+
+        function triggerSecretEasterEgg() {
+            alert("⚠️ УВАГА: Зафіксовано несанкціонований доступ до архівів Королівства!");
+
+            let acceptFate = confirm("Ти впевнений, що твоя загроза достатньо низька, щоб читати цей лор далі?");
+
+            if (acceptFate) {
+                alert("📜 Доступ дозволено. Стародавні Титани стежать за тобою... Швидше біжи у Вікі!");
+            } else {
+                alert("🚪 Розумний вибір. Повертайся на Головну, поки літопис не поглинув твій розум.");
+            }
         }
     </script>
 

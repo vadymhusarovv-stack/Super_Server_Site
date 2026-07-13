@@ -391,3 +391,7 @@ p {
 .category-tag.bild {
   background-color: rgb(199, 144, 24);
 }
+
+.btn-secret {
+  text-align: center;
+}
