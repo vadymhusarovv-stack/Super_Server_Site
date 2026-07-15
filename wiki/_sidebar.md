@@ -68,6 +68,7 @@
   * [🤖 Командувач B-0](lore/commander_b0.md)
   * [🎣 Наглядач Рибальского Причалу](lore/fish.md)
   * [🌾 Майстер Томас](lore/tom_farm.md)
+  * [📦 Наглядач Складу Віталій](lore/vitalick_sklad.md)
 
 
   * [Культисти](lore/cultists/cultists.md)
