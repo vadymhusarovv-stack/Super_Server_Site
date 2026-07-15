@@ -1,0 +1,94 @@
+:root {
+  --theme-color: #dca355; 
+  --sidebar-width: 280px;
+}
+
+body {
+  background-color: #1e1e1e !important;
+  color: #f5f5f5 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.sidebar {
+  background-color: #161616 !important;
+  border-right: 2px solid #b57c32 !important;
+}
+
+.sidebar .app-name {
+  color: #fff !important;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: center;
+  
+  border: 4px solid rgb(203, 99, 99); 
+  border-radius: 12px;                
+  padding: 15px 10px;               
+  margin: 20px auto 10px auto;        
+  width: 80%;                         
+  display: block;
+}
+
+.sidebar ul, .sidebar li, .sidebar a {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  transform: none !important;
+}
+
+.sidebar ul li a {
+  color: #c8c8c8 !important;
+  padding: 6px 0px 6px 15px !important;
+  display: inline-block !important;
+  font-size: 15px !important;
+  transition: color 0.2s ease;
+}
+
+.sidebar ul li a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.sidebar a.btn-wiki-back {
+  background-color: #dca355 !important;
+  border: 2px solid #b57c32 !important;
+  color: white !important;
+  text-align: center !important;
+  border-radius: 12px !important; 
+  padding: 10px 15px !important;
+  margin: 15px auto !important;
+  display: block !important;
+  font-weight: bold !important;
+  font-family: sans-serif !important;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.2) !important;
+  transition: all 0.2s ease !important;
+  width: 80% !important;
+  text-decoration: none !important;
+}
+
+.sidebar a.btn-wiki-back:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 0 rgba(0,0,0,0.15) !important;
+  background-color: #e5ae63 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.markdown-section blockquote {
+  border-left: 4px solid #b57c32 !important;
+  background-color: #252525 !important;
+  padding: 15px !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+}
+
+.markdown-section img {
+  max-width: 500px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
+  transition: transform 0.3s !important;
+}
+
+.markdown-section img:hover {
+  transform: scale(1.03) !important;
+}
