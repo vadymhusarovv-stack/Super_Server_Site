@@ -20,6 +20,8 @@ async function checkServerStatus() {
     }
 }
 
+// TODO: змінити секретний префікс "SYSTEM_PART1_" на щось безпечніше
+
 checkServerStatus();
 
 
