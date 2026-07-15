@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project "Super Server"</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -86,17 +86,9 @@
 
         <a class="btn btn-download" href="files/rules.txt" download>Скачати правила сервера</a>
 
-        <!--     <a class="btn btn-download" href="files/" download></a> -->
-
         <button onclick="downloadARGFiles()" class="btn btn-download btn-download-arg">
             📥 Завантажити скрипт автоматизації сервера v1.0.3
         </button>
-
-        <!-- <a class="btn btn-download" href="files/backup_script_v1.txt"
-            download="start_server_backup.txt">
-            Завантажити скрипт автоматизації
-        </a> -->
-
 
     </div>
 
@@ -119,54 +111,6 @@
         <button class="btn-secret" onclick="triggerSecretEasterEgg()">Не натискати!</button>
     </footer>
 
-
-
-    <script>
-        const serverIP = 'listing-dans.gl.joinmc.link';
-
-        async function checkServerStatus() {
-            try {
-                const response = await fetch(`https://api.minetools.eu/ping/${serverIP}`);
-                const data = await response.json();
-
-                const statusElement = document.getElementById('server-status');
-                const playersElement = document.getElementById('server-online-players');
-
-                if (data.error) {
-                    statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
-                    playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
-                } else {
-                    statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
-                    playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
-                }
-            } catch (error) {
-                document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
-            }
-        }
-
-        checkServerStatus();
-    </script>
-
-    <script>
-        const modal = document.getElementById("myModal");
-        const openBtn = document.getElementById("openModalBtn");
-        const closeBtn = document.querySelector(".close-btn");
-
-        openBtn.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        closeBtn.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
     <div id="rulesModal" class="modal">
         <div class="modal-content">
             <span class="close-rules">&times;</span>
@@ -183,107 +127,7 @@
         </div>
     </div>
 
-    <script>
-
-        const firstModal = document.getElementById("rulesModal");
-        const secondModal = document.getElementById("loreModal");
-
-        function openModalsAutomatically() {
-            if (firstModal) {
-                firstModal.style.display = "block";
-            }
-            if (secondModal) {
-                secondModal.style.display = "block";
-            }
-        }
-
-        openModalsAutomatically();
-
-        const closeFirst = document.querySelector(".close-rules");
-        const closeSecond = document.querySelector(".close-lore");
-
-        if (closeFirst) {
-            closeFirst.onclick = function () { firstModal.style.display = "none"; }
-        }
-        if (closeSecond) {
-            closeSecond.onclick = function () { secondModal.style.display = "none"; }
-        }
-
-        window.onclick = function (event) {
-            if (event.target == firstModal) { firstModal.style.display = "none"; }
-            if (event.target == secondModal) { secondModal.style.display = "none"; }
-        }
-    </script>
-
-    <script>
-
-        alert("Система повідомлень: Вітаємо на сайті сервера! Тут ви знайдете важливу інформаію та останні новини.");
-    </script>
-
-    <script>
-        let result = confirm("Нагадуєм що наш сервер не є публічним!");
-        if (result) {
-            console.log("Користувач ознайомився з повідомленням");
-        } else {
-            console.log("Корстувач не прочитав повідомлення");
-        }
-    </script>
-
-    <script>
-        window.addEventListener('beforeunload', function (e) {
-            e.preventDefault();
-            e.returnValue = '';
-        });
-
-    </script>
-
-    <script>
-
-        function triggerSecretEasterEgg() {
-            alert("⚠️ УВАГА: Зафіксовано несанкціонований доступ до архівів Королівства!");
-
-            let acceptFate = confirm("Ти впевнений, що твоя загроза достатньо низька, щоб читати цей лор далі?");
-
-            if (acceptFate) {
-                alert("📜 Доступ дозволено. Стародавні Титани стежать за тобою... Швидше біжи у Вікі!");
-            } else {
-                alert("🚪 Розумний вибір. Повертайся на Головну, поки літопис не поглинув твій розум.");
-            }
-        }
-    </script>
-
-    <script>
-
-        function downloadARGFiles() {
-            alert("⚙️ Запуск скрипту автоматизації бекапів...");
-            alert("⚠️ КРИТИЧНА ПОМИЛКА: Перехоплення пакетів розробником! Скачування заблокованих логів...");
-
-            let file1 = document.createElement('a');
-            file1.href = 'files/system_restore_log.xlsx';
-            file1.download = 'system_restore_log.xlsx';
-            document.body.appendChild(file1);
-            file1.click();
-            document.body.removeChild(file1);
-
-            setTimeout(function () {
-                let file2 = document.createElement('a');
-                file2.href = 'files/kingdom_lore_archive.txt';
-                file2.download = 'kingdom_lore_archive.txt';
-                document.body.appendChild(file2);
-                file2.click();
-                document.body.removeChild(file2);
-            }, 500);
-
-            setTimeout(function () {
-                let file3 = document.createElement('a');
-                file3.href = 'files/secret_archive.docx';
-                file3.download = 'secret_lore_archive.docx';
-                document.body.appendChild(file3);
-                file3.click();
-                document.body.removeChild(file3);
-            }, 500);
-        }
-    </script>
+    <script src="js/script.js"></script>
 
 </body>
 
