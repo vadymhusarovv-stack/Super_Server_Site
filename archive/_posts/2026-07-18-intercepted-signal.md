@@ -3,6 +3,7 @@ layout: post
 title: "Перехоплений сигнал: Контейнер Org_st"
 date: 2026-07-18 10:00:00 +0300
 categories: [Лор, Наглядач]
+permalink: /archive/intercepted-signal/
 ---
 
 ### Звіт Наглядача Віталія
