@@ -1,5 +1,5 @@
 title: "Архів Даних Королівства"
 description: "Засекречені хроніки Організації та записи Титанів"
-permalink: /archive/:year/:month/:day/:title.html
+permalink: /archive/:year/:month/:day/:title.md
 markdown: kramdown
 theme: minima # Це стандартна тема, яка вбудована в GitHub за замовчуванням
