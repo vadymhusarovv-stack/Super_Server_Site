@@ -25,7 +25,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 17px;">⚓ Наглядач причалу</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/dock_keeper.png" alt="Наглядач причалу" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387; display: block;" />
+    <img src="images/lore/npc/dock_keeper.png" alt="Наглядач причалу" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387; display: block;" />
     <i style="display: block; font-size: 11px; color: #a6adc8; margin-top: 5px;">Господар Помаранчевої гавані</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important;">

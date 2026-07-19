@@ -27,7 +27,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎵 _jeb</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/_jeb.png" alt="Музикант _jeb" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
+    <img src="images/lore/stands/_jeb.png" alt="Музикант _jeb" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Німий магістр підвальних мелодій</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -64,7 +64,7 @@
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🦙 LadyAgnes</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/LadyAgnes.png" alt="Дослідниця LadyAgnes" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <img src="images/lore/stands/LadyAgnes.png" alt="Дослідниця LadyAgnes" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Хранителька фауни та затишку в підземеллі</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -101,7 +101,7 @@
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏴‍☠️ Monkey D. Luffy</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/MDL.png" alt="Капітан Луффі" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
+    <img src="images/lore/stands/MDL.png" alt="Капітан Луффі" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Шукач скарбів та свободи у всесвіті Творців</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -138,7 +138,7 @@
 <div style="background: #11111b; border: 2px solid #89dceb; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,220,235,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89dceb; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎹 C418</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/C418.png" alt="Композитор C418" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89dceb;" />
+    <img src="images/lore/stands/C418.png" alt="Композитор C418" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89dceb;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Творець підземних симфоній</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -175,7 +175,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎨 jnkboy</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/jnkboy.png" alt="Художник jnkboy" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
+    <img src="images/lore/stands/jnkboy.png" alt="Художник jnkboy" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Дизайнер інтерфейсів та візуалу розлому</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -212,7 +212,7 @@
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🔑 _PWGood_</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/_PWGood_.png" alt="Персонаж _PWGood_" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <img src="images/lore/stands/_PWGood_.png" alt="Персонаж _PWGood_" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Хранитель ключів доступу та підписок підземелля</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -249,7 +249,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⚙️ CraftyMasterman</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/CraftyMasterman.png" alt="Редстоунер CraftyMasterman" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
+    <img src="images/lore/stands/CraftyMasterman.png" alt="Редстоунер CraftyMasterman" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Проєктувальник автоматичних алхімічних ліній</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -286,7 +286,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏗️ cubicmetre</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/cubicmetre.png" alt="Інженер cubicmetre" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
+    <img src="images/lore/stands/cubicmetre.png" alt="Інженер cubicmetre" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Майстер редстоун-оптимізації та вертикальних систем</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -323,7 +323,7 @@
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧠 sammyuri</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/sammyuri.png" alt="Інженер sammyuri" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
+    <img src="images/lore/stands/sammyuri.png" alt="Інженер sammyuri" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Майстер складних логічних архітектур</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -360,7 +360,7 @@
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🕵️‍♂️ MumboJumbo</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/MumboJumbo.png" alt="Майстер механізмів MumboJumbo" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
+    <img src="images/lore/stands/MumboJumbo.png" alt="Майстер механізмів MumboJumbo" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Спеціаліст із секретів та редстоуну</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -397,7 +397,7 @@
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🌀 SpokeIsHere</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/SpokeIsHere.png" alt="Дослідник SpokeIsHere" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
+    <img src="images/lore/stands/SpokeIsHere.png" alt="Дослідник SpokeIsHere" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Зберігач Wormhole та майстер розломів</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -434,7 +434,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🏗️ Jozzah</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Jozzah.png" alt="Будівельник Jozzah" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
+    <img src="images/lore/stands/Jozzah.png" alt="Будівельник Jozzah" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Творець підземних інтер'єрів та колон</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -470,7 +470,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Skeleton Miner</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Skeleton_Miner.png" alt="Шахтар Skeleton Miner" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
+    <img src="images/lore/stands/Skeleton_Miner.png" alt="Шахтар Skeleton Miner" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Вартовий та постачальник ресурсів</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -507,7 +507,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Вартовий Григорій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Gregory.png" alt="Вартовий Григорій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
+    <img src="images/lore/stands/Gregory.png" alt="Вартовий Григорій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Перший рубіж оборони</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -544,7 +544,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧱 Будівельник Микита</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Mykyta.png" alt="Будівельник Микита" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
+    <img src="images/lore/stands/Mykyta.png" alt="Будівельник Микита" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Творець зовнішньої інфраструктури</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -581,7 +581,7 @@
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🍺 Сашко</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Saha.png" alt="Сашко біля Таверни" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <img src="images/lore/stands/Saha.png" alt="Сашко біля Таверни" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Постійний клієнт та оповідач</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -618,7 +618,7 @@
 <div style="background: #11111b; border: 2px solid #cba6f7; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(203,166,247,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">👻 Привид</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Goust.png" alt="Привид з іншого світу" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
+    <img src="images/lore/stands/Goust.png" alt="Привид з іншого світу" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #cba6f7;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Охоронець міжвимірного переходу</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -655,7 +655,7 @@
 <div style="background: #11111b; border: 2px solid #94e2d5; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(148,226,213,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #94e2d5; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧪 Науковець Василь</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Vasa_nayka.png" alt="Науковець Василь" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #94e2d5;" />
+    <img src="images/lore/stands/Vasa_nayka.png" alt="Науковець Василь" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #94e2d5;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Хранитель знань "Релікту"</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -692,7 +692,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛲ Олег</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Oleg_font.png" alt="Олег біля фонтану" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
+    <img src="images/lore/stands/Oleg_font.png" alt="Олег біля фонтану" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Душа міського фонтану</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -729,7 +729,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Антон</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Mine_anton.png" alt="Шахтар Антон" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
+    <img src="images/lore/stands/Mine_anton.png" alt="Шахтар Антон" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Легенда підземних копалень</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -766,7 +766,7 @@
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Кирило</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Kyril_mine.png" alt="Шахтар Кирило" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
+    <img src="images/lore/stands/Kyril_mine.png" alt="Шахтар Кирило" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Надійний вартовий шахти</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -803,7 +803,7 @@
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Василь</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Vasyl_mine.png" alt="Шахтар Василь" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <img src="images/lore/stands/Vasyl_mine.png" alt="Шахтар Василь" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Інженер-механік шахти</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -840,7 +840,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛏️ Шахтар Сергій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Sergy_Mine.png" alt="Шахтар Сергій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
+    <img src="images/lore/stands/Sergy_Mine.png" alt="Шахтар Сергій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Вартовий світла</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -877,7 +877,7 @@
 <div style="background: #11111b; border: 2px solid #a6adc8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,173,200,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6adc8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Вартовий Іван</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Vartovi_Ivan.png" alt="Вартовий Іван" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6adc8;" />
+    <img src="images/lore/stands/Vartovi_Ivan.png" alt="Вартовий Іван" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6adc8;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Страж торгівельних шляхів</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -914,7 +914,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Вартовий Анатолій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Anatoil_vartovi.png" alt="Вартовий Анатолій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
+    <img src="images/lore/stands/Anatoil_vartovi.png" alt="Вартовий Анатолій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Лідер Мовчазного тріо</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -951,7 +951,7 @@
 <div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">💰 Торговець Ігор</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Igor_treder.png" alt="Торговець Ігор" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <img src="images/lore/stands/Igor_treder.png" alt="Торговець Ігор" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Серце торгівельної зони</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -988,7 +988,7 @@
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🥩 Торговець Ваня</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Vany_torgow.png" alt="Торговець Ваня" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
+    <img src="images/lore/stands/Vany_torgow.png" alt="Торговець Ваня" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Постачальник провізії</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -1025,7 +1025,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🧹 Прибиральник Михайло</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Myhalo_clean.png" alt="Прибиральник Михайло" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
+    <img src="images/lore/stands/Myhalo_clean.png" alt="Прибиральник Михайло" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Служитель чистоти</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -1062,7 +1062,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛋️ Василь</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Vasil_rest.png" alt="Василь на лавці" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
+    <img src="images/lore/stands/Vasil_rest.png" alt="Василь на лавці" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Любитель затишку</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -1099,7 +1099,7 @@
 <div style="background: #11111b; border: 2px solid #89dceb; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,220,235,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89dceb; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🎣 Рибалка Ігор</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Igor_fish.png" alt="Рибалка Ігор" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89dceb;" />
+    <img src="images/lore/stands/Igor_fish.png" alt="Рибалка Ігор" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #89dceb;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Знавець водних легенд</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
@@ -1136,7 +1136,7 @@
 <div style="background: #11111b; border: 2px solid #94e2d5; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(148,226,213,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #94e2d5; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🕸️ Рибалка Анатолій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/Fish_anatoliy.png" alt="Рибалка Анатолій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #94e2d5;" />
+    <img src="images/lore/stands/Fish_anatoliy.png" alt="Рибалка Анатолій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #94e2d5;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Майстер рибальських мереж</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

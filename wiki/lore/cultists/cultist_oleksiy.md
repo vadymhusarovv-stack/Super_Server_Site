@@ -19,7 +19,7 @@
 <div style="background: #11111b; border: 2px solid #f2cdcd; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(242,205,205,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f2cdcd; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🍄 Культист Олексій</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/cultist_oleksiy.png" alt="Культист Олексій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f2cdcd;" />
+    <img src="images/lore/npc/cultist_oleksiy.png" alt="Культист Олексій" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f2cdcd;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Цінитель естетики Бога Творіння</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

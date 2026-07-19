@@ -19,7 +19,7 @@
 <div style="background: #1e1e2e; border: 2px solid #585b70; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 8px rgba(0,0,0,0.3);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #585b70; padding-bottom: 8px; font-size: 18px;">🤖 Unit-027</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/unit_027.png" alt="Unit-027" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #45475a;" />
+    <img src="images/lore/npc/unit_027.png" alt="Unit-027" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #45475a;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Пошкоджений кіборг прадавньої цивілізації</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

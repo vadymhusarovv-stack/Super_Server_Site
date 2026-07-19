@@ -44,7 +44,7 @@
 <div style="background: #11111b; border: 2px solid #89b4fa; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,180,250,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89b4fa; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 17px;">⚙️ Системна інфо</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/server_tech_core.png" alt="Технічний розділ" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa; display: block;" />
+    <img src="images/tech/server_tech_core.png" alt="Технічний розділ" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #89b4fa; display: block;" />
     <i style="display: block; font-size: 11px; color: #a6adc8; margin-top: 5px;">Ядро та стабільність ери Aeterna</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important;">

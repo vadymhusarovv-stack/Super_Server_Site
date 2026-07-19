@@ -19,7 +19,7 @@
 <div style="background: #1e1e2e; border: 2px solid #94e2d5; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 8px rgba(148,226,213,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #94e2d5; border-bottom: 2px solid #585b70; padding-bottom: 8px; font-size: 18px;">👽 Тор (Голограма)</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/thor_asgard.png" alt="Голограма Тора" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #45475a; filter: drop-shadow(0 0 5px #94e2d5);" />
+    <img src="images/lore/npc/thor_asgard.png" alt="Голограма Тора" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #45475a; filter: drop-shadow(0 0 5px #94e2d5);" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Проєкція вищого розуму Асгардів</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
