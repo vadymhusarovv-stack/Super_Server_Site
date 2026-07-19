@@ -36,7 +36,7 @@
 <div style="background: #11111b; border: 2px solid #f38ba8; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(243,139,168,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #f38ba8; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🔴 Торговий Квартал</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/red_zone_market.png" alt="Торгова зона" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8; display: block;" />
+    <img src="images/locations/red_zone_market.png" alt="Торгова зона" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #f38ba8; display: block;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Ринкові площі та портові причали</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

@@ -36,7 +36,7 @@
 <div style="background: #11111b; border: 2px solid #fab387; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(250,179,135,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #fab387; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🟠 Новий Квартал</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/orange_zone_construction.png" alt="Помаранчева зона" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387; display: block;" />
+    <img src="images/locations/orange_zone_construction.png" alt="Помаранчева зона" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #fab387; display: block;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Перші 3 будинки нового сектору</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

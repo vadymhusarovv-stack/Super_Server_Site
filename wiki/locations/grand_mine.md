@@ -12,7 +12,7 @@
 Перший вхід веде до гордості нашого Королівства — **Автоматичної Шахти**. Завдяки залученню давніх технологій та магічних інженерних рішень, ця зона має властивість **повного самовідновлення**. Як тільки мандрівники повністю викопують усі ресурси в нуль, шахта перезапускає свій цикл і знову наповнюється свіжою рудою. Це безпечне та стабільне місце для щоденного видобутку.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="images/auto_mine_entrance.png" alt="Вхід до Авто-Шахти" style="max-width: 100%; height: auto; border: 2px solid #f9e2af; border-radius: 8px; box-shadow: 0 4px 12px rgba(249,226,175,0.15);" />
+  <img src="images/locations/auto_mine_entrance.png" alt="Вхід до Авто-Шахти" style="max-width: 100%; height: auto; border: 2px solid #f9e2af; border-radius: 8px; box-shadow: 0 4px 12px rgba(249,226,175,0.15);" />
   <i style="display: block; font-size: 13px; color: #a6adc8; margin-top: 8px;">Головний технологічний вхід до зони відновлюваних ресурсів</i>
 </div>
 
@@ -22,7 +22,7 @@
 > ⚠️ **ПОПЕРЕДЖЕННЯ ВАРТИ:** Спускатися туди настійно **не рекомендується**. Низькі рівні копальні погано освітлені, завалені закинутими проходами та кишать небезпечними монстрами. Спуск туди — це завжди величезний ризик для життя!
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="images/old_mine_entrance.png" alt="Вхід до Старої Шахти" style="max-width: 100%; height: auto; border: 2px solid #f38ba8; border-radius: 8px; box-shadow: 0 4px 12px rgba(243,139,168,0.15);" />
+  <img src="images/locations/old_mine_entrance.png" alt="Вхід до Старої Шахти" style="max-width: 100%; height: auto; border: 2px solid #f38ba8; border-radius: 8px; box-shadow: 0 4px 12px rgba(243,139,168,0.15);" />
   <i style="display: block; font-size: 13px; color: #a6adc8; margin-top: 8px;">Занедбаний спуск у глибокі підземелля Королівства</i>
 </div>
 
