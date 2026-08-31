@@ -36,7 +36,7 @@
   <h3 style="margin-top: 0; text-align: center; color: #cba6f7; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🌌 Портал у Незер</h3>
   <div style="text-align: center; margin-bottom: 12px;">
     <div style="background: #313244; width: 100%; height: 150px; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #a6adc8; font-style: italic; border: 1px solid #cba6f7;">
-      <img src="images/locations/nether_portal.png" alt="Портал у Незері" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6adc8; display: block;" />
+      <img src="images/locations/main_portal/nether_portal.png" alt="Портал у Незері" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6adc8; display: block;" />
     </div>
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Брама у Нижній Світ</i>
   </div>

@@ -35,7 +35,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">⛩️ Святилище Спокою</h3>
   <div style="text-align: center; margin-bottom: 12px;">
-    <img src="images/locations/shrine_of_peace.png" alt="Святилище Спокою" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1; display: block;" />
+    <img src="images/locations/spawn/shrine_of_peace.png" alt="Святилище Спокою" style="width: 100%; height: auto; border-radius: 4px; border: 1px solid #a6e3a1; display: block;" />
     <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Початок усіх доріг</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">

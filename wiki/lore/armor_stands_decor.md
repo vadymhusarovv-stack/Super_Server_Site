@@ -1151,3 +1151,40 @@
 </table>
 
 ---
+
+### 🍖 Охоронець Степан (Червона зона / Підземелля)
+
+<table>
+<tr style="background: transparent !important;">
+<td style="vertical-align: top; border: none !important; background: transparent !important; padding-right: 20px;">
+
+**Охоронець Степан** — вірний супутник, безмовна тінь та за сумісництвом «головний дегустатор» підземного сховку **Secret Dealer'а**. На відміну від більшості інших стійок, Степан зафіксований у максимально розслабленій, але водночас контролюючій позі: він зручно вмостився прямо на кам'яній підлозі печери й пильно стежить за кожним, хто спускається до тіньового торговця.
+
+Його екіпірування — це справжній витвір підземного модифікованого армору: черепашачий шолом для захисту від падаючих сталактитів, тактичні окуляри, шкіряний нагрудник та залізні поночі. У руці він міцно тримає свій головний аргумент у будь-якій суперечці — соковиту смажену свинину. Степан гарантує, що жодна угода в печері не закінчиться обманом.
+
+🎨 **Характеристики сутності:**
+* 👤 **Візуальний стиль:** Сидяча стійка, черепашачий панцир, тактичні окуляри, шкіра та залізо
+* 📍 **Поточне розташування:** Печера під околицями Торгового Селища (Червона зона)
+* 🍖 **Активна дія:** Охорона Secret Dealer'а та дегустація підземного перекусу
+
+</td>
+<td style="vertical-align: top; width: 320px; border: none !important; background: transparent !important;">
+
+<div style="background: #11111b; border: 2px solid #f9e2af; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(249,226,175,0.2);">
+  <h3 style="margin-top: 0; text-align: center; color: #f9e2af; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 18px;">🛡️ Охоронець Степан</h3>
+  <div style="text-align: center; margin-bottom: 12px;">
+    <img src="images/lore/stands/stepan.png" alt="Охоронець Степан" style="max-width: 100%; height: auto; border-radius: 4px; border: 1px solid #f9e2af;" />
+    <i style="display: block; font-size: 12px; color: #a6adc8; margin-top: 5px;">Головний страж підземелля</i>
+  </div>
+  <table style="width: 100%; border-collapse: collapse; font-size: 13px; background: transparent !important;">
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Тип сутності:</td><td style="padding: 6px 4px; background: transparent !important; color: #cdd6f4;">Кастомна стійка-персонаж</td></tr>
+    <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Предмет у руках:</td><td style="padding: 6px 4px; background: transparent !important; color: #f9e2af; font-weight: bold;">Смажена свинина 🍖</td></tr>
+    <tr style="background: transparent !important;"><td style="padding: 6px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Сусіди по сектору:</td><td style="padding: 6px 4px; background: transparent !important; color: #f38ba8;">Secret Dealer</td></tr>
+  </table>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
