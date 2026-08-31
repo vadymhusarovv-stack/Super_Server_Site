@@ -24,7 +24,7 @@
             <span class="close-btn">&times;</span>
             <h2>📖 Сувій Літопису</h2>
             <p>Новий розділ уже доступний на вікі</p>
-            <a href="./wiki" class="btn">Розділ XXIV</a>
+            <a href="./wiki" class="btn">Розділ XXV</a>
         </div>
     </div>
 
@@ -39,8 +39,22 @@
         <p id="server-online-players"></p>
     </div>
 
-        <div
-        style="background-color: #1e1e2e; border: 2px solid #f9e2af; border-radius: 12px; padding: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #cdd6f4; max-width: 650px; margin: 20px auto; box-shadow: 0 4px 15px rgba(249, 226, 175, 0.15);">
+    <audio id="secret-sound" src="sounds/button_click.wav" preload="auto"></audio>
+
+    <audio id="click-sound" src="sounds/click.ogg" preload="auto"></audio>
+
+    <audio id="success-sound" src="sounds/explosion.ogg" preload="auto"></audio>
+
+    <img id="secret-ameba" src="images/earth-icon.png" alt=""
+        style="width: 40px; height: 40px; cursor: pointer; opacity: 0.4; transition: all 0.3s ease;">
+
+    <audio id="console-sound" src="sounds/connetc_loop.wav" preload="auto"></audio>
+
+
+
+
+    <!-- <div 
+       style="background-color: #1e1e2e; border: 2px solid #f9e2af; border-radius: 12px; padding: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #cdd6f4; max-width: 650px; margin: 20px auto; box-shadow: 0 4px 15px rgba(249, 226, 175, 0.15);">
         <div
             style="display: flex; align-items: center; border-bottom: 2px solid #313244; padding-bottom: 15px; margin-bottom: 20px;">
             <span style="font-size: 30px; margin-right: 15px; animation: spin 4s linear infinite;">🛠️</span>
@@ -73,7 +87,7 @@
         <p
             style="text-align: center; margin-top: 25px; margin-bottom: 0; font-size: 14px; color: #a6adc8; font-style: italic;">
             Приєднуйтесь до нашого Discord, щоб першими дізнатися про дату грандіозного відкриття!
-        </p>
+        </p> 
 
         <style>
             @keyframes spin {
@@ -82,7 +96,7 @@
                 }
             }
         </style>
-    </div>
+    </div> -->
 
     <div class="server-links">
         <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing"
@@ -113,6 +127,7 @@
 
         <p>
             <span class="badge">Новинка!</span> Додано новий розділ з корисними порадами та гайдами для користувачів.
+            (Увага! Цей розділ більше не підтримується.)
         </p>
         <p>
             <span class="badge">Подія!</span> Не пропустіть наш наступний вебінар, де ми розповімо про майбутні плани та
@@ -135,12 +150,15 @@
             📥 Завантажити скрипт автоматизації сервера v1.0.3
         </button>
 
+        <a class="btn btn-download" href="extension.html">Завантажити розширення</a>
+
     </div>
 
 
 
 
-    <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
+    <footer class="footer">
+        <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
         </p>
 
         <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
@@ -154,6 +172,7 @@
         </p>
 
         <button class="btn-secret" onclick="triggerSecretEasterEgg()">Не натискати!</button>
+
     </footer>
 
     <div id="rulesModal" class="modal">
@@ -171,6 +190,8 @@
             <p>Ви можете прочитати літопис сервера на вікі</p>
         </div>
     </div>
+
+
 
     <script src="js/script.js"></script>
 

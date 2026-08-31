@@ -410,3 +410,11 @@ p {
   cursor: pointer;
   font-family: monospace;
 }
+
+.category-tag.docs {
+  background-color: #00b894;
+}
+
+.category-tag.global {
+  background-color: #0984e3;
+}

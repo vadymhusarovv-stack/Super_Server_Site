@@ -127,3 +127,147 @@ function downloadARGFiles() {
         document.body.removeChild(file3);
     }, 500);
 }
+
+// === ПАСХАЛКА 1: СЕКРЕТНЕ СЛОВО НА КЛАВІАТУРІ ===
+
+const SECRET_WORD = "lore"; 
+
+let inputBuffer = [];
+
+document.addEventListener('keydown', (event) => {
+
+    const key = event.key.toLowerCase();
+
+    if (key.length === 1) {
+
+        inputBuffer.push(key);
+
+        if (inputBuffer.length > SECRET_WORD.length) {
+            inputBuffer.shift();
+        }
+
+        if (inputBuffer.join('') === SECRET_WORD) {
+            activateSecretCode();
+        }
+    }
+});
+
+function activateSecretCode() {
+    console.log("🔓 Код активації лору успішно введено!");
+    
+    inputBuffer = [];
+
+    const audio = document.getElementById('secret-sound');
+    if (audio) {
+        audio.currentTime = 0; 
+        audio.play().catch(e => console.log("Браузер заблокував звук до першого кліку:", e));
+    }
+
+    const originalBackground = document.body.style.backgroundColor;
+    document.body.style.backgroundColor = "#00ffcc"; 
+    
+    setTimeout(() => {
+        document.body.style.backgroundColor = originalBackground;
+        
+        alert("📜 Стародавні літописи відкрили свій секрет. Ключ до наступного кроку: ... ");
+    }, 300);
+}
+
+// === ПАСХАЛКА 2: СЕКРЕТНИЙ КЛІКЕР ПО ІКОНЦІ ===
+
+let clickCount = 0;       
+let clickTimeout;         
+
+const amebaImg = document.getElementById('secret-ameba');
+const clickAudio = document.getElementById('click-sound');
+const successAudio = document.getElementById('success-sound');
+
+if (amebaImg) {
+    amebaImg.addEventListener('click', () => {
+        clearTimeout(clickTimeout);
+        clickTimeout = setTimeout(() => {
+            clickCount = 0;
+            amebaImg.style.transform = "scale(1)"; 
+            console.log("⏱️ Час вийшов, лічильник кліків скинуто.");
+        }, 2000);
+
+        clickCount++;
+        console.log(`🖱️ Клік по амебі: ${clickCount}/10`);
+
+        amebaImg.style.transform = `scale(${1 + clickCount * 0.05}) rotate(${clickCount * 15}deg)`;
+        amebaImg.style.opacity = 0.4 + (clickCount * 0.06);
+
+        if (clickAudio) {
+            clickAudio.currentTime = 0;
+            clickAudio.play().catch(e => {});
+        }
+
+        if (clickCount === 10) {
+            // Зкидаємо лічильник та таймер
+            clearTimeout(clickTimeout);
+            clickCount = 0;
+
+            activateAmebaSecret();
+        }
+    });
+}
+
+function activateAmebaSecret() {
+    console.log("🧬 Еволюція завершена! Секрет амеби відкрито.");
+
+    if (successAudio) {
+        successAudio.currentTime = 0;
+        successAudio.play().catch(e => {});
+    }
+
+    amebaImg.style.transform = "scale(1) rotate(0deg)";
+    amebaImg.style.opacity = 0.4;
+
+    alert("🧬 МУТАЦІЯ УСПІШНА! Ви роздратували первісну планету. Код для архіву: АМЕВА_2026");
+}
+
+// === ПАСХАЛКА 3: КОНСОЛЬНИЙ ШПИГУН (КЛІК F12 / CTRL+SHIFT+I) ===
+
+let consoleActivated = false;
+
+function runConsoleEasterEgg() {
+    if (consoleActivated) return;
+    consoleActivated = true;
+
+    // 1. Граємо звук сигналу
+    const consoleAudio = document.getElementById('console-sound');
+    if (consoleAudio) {
+        consoleAudio.currentTime = 0;
+        consoleAudio.play().catch(e => console.log("Потрібен клік на сайті перед F12"));
+    }
+
+    // 2. Величезний стилізований текст (зелений хакерський колір)
+    console.log(
+        "%c👁️ СИСТЕМА ВИЯВИЛА СЛІДКУВАННЯ... 👁️", 
+        "color: #00ffcc; font-size: 24px; font-weight: bold; font-family: monospace; text-shadow: 0 0 10px #00ffcc;"
+    );
+    
+    console.log(
+        "%c----------------------------------------------------------------\n" +
+        "📜 ДОСТУП ДО ЗАБЛОКОВАНИХ СЕКТОРІВ ЛІТОПИСУ ДОЗВОЛЕНО.\n" +
+        "🔍 Ви відкрили консоль розробника. Справжній детектив дивиться глибше.\n" +
+        "🔒 Ваш наступний ключ заховано в історії комітів репозиторію.\n" +
+        "🤖 Проєкт 'ARG-2026' активний. Слідкуйте за коментарями в HTML.\n" +
+        "----------------------------------------------------------------",
+        "color: #a0ff90; font-size: 14px; font-family: monospace;"
+    );
+}
+
+// Перехоплюємо натискання клавіш, які відкривають консоль
+document.addEventListener('keydown', (event) => {
+    // 1. Перевірка на клавішу F12
+    const isF12 = (event.key === 'F12');
+    
+    // 2. Перевірка на комбінацію Ctrl + Shift + I
+    const isCtrlShiftI = (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'і' || event.code === 'KeyI'));
+
+    if (isF12 || isCtrlShiftI) {
+        // Запускаємо пасхалку з невеликою затримкою у 300 мс, щоб консоль встигла відкритися перед очима гравця
+        setTimeout(runConsoleEasterEgg, 300);
+    }
+});
