@@ -45,7 +45,7 @@
 <div style="background: #11111b; border: 2px solid #a6e3a1; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(166,227,161,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #a6e3a1; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 17px;">🔌 Стан системи</h3>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important; margin-top: 10px;">
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Усього плагінів:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">46(або уже й більше) активних</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Усього плагінів:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">57(або уже й більше) активних</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Ядро сервера:</td><td style="padding: 5px 4px; background: transparent !important; color: #a6e3a1; font-weight: bold;">Paper (1.21.10)</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Захист блоків:</td><td style="padding: 5px 4px; background: transparent !important; color: #fab387;">CoreProtect</td></tr>
   </table>
