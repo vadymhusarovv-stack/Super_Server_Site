@@ -2,6 +2,17 @@
 <html lang="uk">
 
 <head>
+
+    <script>
+
+        const referrer = document.referrer;
+        const cameFromWelcome = referrer.includes('main.html');
+
+        if (localStorage.getItem('skip_welcome') !== 'true' && !cameFromWelcome) {
+            window.location.href = 'main.html';
+        }
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project "Super Server"</title>
@@ -10,6 +21,7 @@
 </head>
 
 <body>
+
 
     <a href="map.html" class="btn btn-map">Онлайн Карта</a>
     <a href="chronicle.html" class="btn btn-chronicle">Читати Правила</a>
@@ -106,6 +118,9 @@
 
         <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
             class="btn btn-form" target="_blank">Наш Форма</a>
+
+        <a href="main.html" class="btn btn-hi">Вітальна Сторінка</a>
+
     </div>
 
     <div class="content">

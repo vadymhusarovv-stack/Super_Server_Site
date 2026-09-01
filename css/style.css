@@ -418,3 +418,10 @@ p {
 .category-tag.global {
   background-color: #0984e3;
 }
+
+.btn-hi {
+  background-color: #dca355;
+  border: 2px solid #b57c32;
+  color: white;
+  text-decoration: none;
+}

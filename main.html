@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project "Super Server"</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style_hi.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-badge">v2.0</span> Super Server
+            </a>
+
+            <nav class="nav-links">
+                <a href="#" class="active">Головна</a>
+                <a href="./wiki/">Вікі</a>
+                <a href="#features">Можливості</a>
+                <a href="#community">Спільнота</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://discord.gg/XUUGknswwe" target="_blank" class="btn btn-secondary">Discord</a>
+
+                <div class="welcome-actions">
+                    <label class="remember-option">
+                        <input type="checkbox" id="rememberChoice">
+                        Запам'ятати мій вибір
+                    </label>
+
+                    <a href="#" onclick="enterSite(event)" class="btn btn-primary">Перейти на сайт 🚀</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero-container">
+
+        <section class="hero-main">
+            <h1 class="hero-title">Оновлення <span class="text-gradient">v2.0</span> вже тут!</h1>
+            <p class="hero-description">
+                Нові світи, покращена система сховищ, унікальні механіки та повне перезавантаження балансу. Приєднуйся
+                до пригоди прямо зараз!
+            </p>
+
+            <div class="ip-box" onclick="copyIP()">
+                <span class="ip-text" id="serverIP">listing-dans.gl.joinmc.link</span>
+                <button class="ip-btn">Копіювати IP 📋</button>
+            </div>
+        </section>
+
+        <section class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🎒</div>
+                <h3>Система Сховищ</h3>
+                <p>Отримуй доступ до приватних сейфів прямо в грі завдяки AxVaults.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌌</div>
+                <h3>Новий Вимір</h3>
+                <p>Досліджуй івент-світ із власною генерацією та особливими правилами.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📜</div>
+                <h3>Кастомні Крафти</h3>
+                <p>Створюй унікальні предмети та зброю за новими рецептами.</p>
+            </div>
+        </section>
+
+        <section id="features" class="section-block">
+            <h2 class="section-title">Основні <span class="text-gradient">Можливості</span></h2>
+            <div class="features-detail-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">⚔️</div>
+                    <div>
+                        <h4>Гнучка Економіка та Торгівля</h4>
+                        <p>Купуй та продавай ресурси через зручні магазини, створюй власні торгові точки та змагайся за
+                            першість у топі сервера.</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">🗺️</div>
+                    <div>
+                        <h4>Веб-карта Та Світи</h4>
+                        <p>Відстежуй гравців та свої привати у реальному часі через інтерактивну BlueMap прямо у
+                            браузері.</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">🛡️</div>
+                    <div>
+                        <h4>Надійний Захист Майна</h4>
+                        <p>Твої ресурси та території під повним контролем завдяки гнучкій системі приватів та захищеним
+                            сейфам AxVaults.</p>
+                    </div>
+                </div>
+
+                <div class="detail-card">
+                    <div class="detail-icon">⚙️</div>
+                    <div>
+                        <h4>Унікальні Предмети</h4>
+                        <p>Отримуй ексклюзивний арсенал та предмети з кастомними текстурами та ефектами для PvP і PvE.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="section-block">
+            <h2 class="section-title">Наша <span class="text-gradient">Спільнота</span></h2>
+            <div class="community-box">
+                <div class="community-info">
+                    <h3>Приєднуйся до нашого Discord!</h3>
+                    <p>Шукаєш тимейтів, хочеш дізнатися першим про івенти чи запропонувати свою ідею для v2.0? Наш
+                        сервер Discord завжди відкритий!</p>
+                    <div class="community-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">500+</span>
+                            <span class="stat-label">Учасників</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">24/7</span>
+                            <span class="stat-label">Підтримка</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">v2.0</span>
+                            <span class="stat-label">Активний Реліз</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="community-action">
+                    <a href="https://discord.gg/XUUGknswwe" target="_blank" class="btn btn-primary btn-large">Зайти в
+                        Discord
+                        💬</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function copyIP() {
+            const ip = document.getElementById('serverIP').innerText;
+            navigator.clipboard.writeText(ip);
+            alert('IP сервера скопійовано: ' + ip);
+        }
+    </script>
+
+    <script>
+        function enterSite(event) {
+            event.preventDefault();
+
+            const remember = document.getElementById('rememberChoice').checked;
+
+            if (remember) {
+                localStorage.setItem('skip_welcome', 'true');
+            } else {
+                localStorage.removeItem('skip_welcome');
+            }
+
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+
+</html>
