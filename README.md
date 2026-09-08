@@ -13,9 +13,9 @@
 
 Окрім центрального веб-порталу, інфраструктура Королівства підтримується двома автономними ботами, що працюють у режимі 24/7:
 
-* **🤖 [Telegram Bot Repository](https://github.com/vadymhusarovv-stack) (Назва репозиторію):**
+* **🤖 [Telegram Bot Repository](https://github.com/vadymhusarovv-stack/Super_Server_TG_Bot):**
   * **Функціонал:** Оперативні сповіщення, моніторинг стану сервера, швидкі команди для адміністрації та взаємодія з гравцями у Telegram.
-* **💬 [Discord Bot Repository](https://github.com/vadymhusarovv-stack) (Назва репозиторію):**
+* **💬 [Discord Bot Repository](https://github.com/husarovvadymv-droid/Super_Server_DS_Bot):**
   * **Функціонал:** Автоматизація міжвимірного хабу Discord, синхронізація ролей, модерація каналів та інтеграція ігрових подій.
 
 ---
