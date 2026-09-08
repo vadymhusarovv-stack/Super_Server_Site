@@ -152,3 +152,4 @@
   - [🎖️ Як отримати ранг VIP](guildes/vip.md)
   - [🕵️‍♂️ ARG-1](guildes/arg_1.md)
   - [📁 ARG-2](guildes/arg_2.md)
+  - [🧩 Розширення для браузера](guildes/extention.md)
