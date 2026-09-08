@@ -15,6 +15,12 @@
 *   ⚙️ **`husarovvadymv-droid` — Майстер Матерії та Законів**
     *   **Місія:** Створення фізичних законів, предметів та візуального коду всесвіту.
     *   **Функціонал:** Пише та інтегрує кастомні плагіни, датапаки та текстурпаки. Саме він наділяє предмети ери *Aeterna* їхніми властивостями та малює текстури реальності.
+*   🧩 **`1imtheme1-maker` — Інженер Міжвимірних Інтерфейсів**
+    *   **Місія:** Створення та підтримка просторового розширення браузера для прямого зв'язку з ефіром Королівства.
+    *   **Функціонал:** Розробляє кастомне браузерне розширення, що дозволяє манндрівникам синхронізувати свої веб-термінали з центральними системами сервера та отримувати оперативні дані в реальному часі.
+*   📦 **`_mePlays_` — Головний Архітектор Клієнтських Сборок**
+    *   **Місія:** Збірка, компонування та оптимізація візуально-моддингового каркаса сервера.
+    *   **Функціонал:** Відповідає за проектування та підтримку офіційних клієнтських збірок модів і ресурсопаків. Забезпечує ідеальний баланс між продуктивністю та високим рівнем візуальної естетики для всіх жителів світу.
 
 ---
 
@@ -78,7 +84,7 @@
     <i style="display: block; font-size: 11px; color: #a6adc8; margin-top: 5px;">Об'єднана мережа Деміургів та ШІ</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important;">
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Склад Колегії:</td><td style="padding: 4px; background: transparent !important; color: #cdd6f4;">3 GitHub-модулі / 5 Аватарів</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Склад Колегії:</td><td style="padding: 4px; background: transparent !important; color: #cdd6f4;">5 GitHub-модулів / 5 Аватарів</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">ШІ-Юніти:</td><td style="padding: 4px; background: transparent !important; color: #cba6f7;">Gemini, Copilot, ChatGPT, Leonardo</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Рівень Доступу:</td><td style="padding: 4px; background: transparent !important; color: #a6e3a1;">Omnipotent (Всемогутні)</td></tr>
   </table>
