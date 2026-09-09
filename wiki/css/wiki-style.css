@@ -121,20 +121,31 @@ body.sidebar-right .sidebar {
   right: 0 !important;
   border-right: none !important;
   border-left: 2px solid #b57c32 !important;
+  transition: right 0.3s ease, transform 0.3s ease !important;
 }
 
 body.sidebar-right .content {
   margin-left: 0 !important;
   margin-right: 300px !important;
   padding-left: 30px !important;
+  transition: margin-right 0.3s ease !important;
+}
+
+body.sidebar-right.close .sidebar {
+  left: auto !important;
+  right: -300px !important; 
+  transform: none !important; 
+}
+
+body.sidebar-right.close .content {
+  margin-right: 0 !important;
 }
 
 body.sidebar-right .sidebar-toggle {
   left: auto !important;
   right: 0 !important;
-  width: 280px !important;
-  text-align: left !important;
-  padding-left: 15px !important;
+  text-align: right !important;
+  padding-right: 15px !important;
 }
 
 .markdown-section a {
