@@ -271,3 +271,40 @@ document.addEventListener('keydown', (event) => {
         setTimeout(runConsoleEasterEgg, 300);
     }
 });
+
+// Копіювання IP в буфер обміну
+function copyServerIP() {
+  const ipText = document.getElementById('serverIP').innerText;
+  navigator.clipboard.writeText(ipText).then(() => {
+    const toast = document.getElementById('copyToast');
+    toast.classList.add('show');
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 2000);
+  });
+}
+
+// Перевірка реального статусу через публічний API Майнкрафт
+async function checkServerStatus() {
+  const ip = 'listing-dans.gl.joinmc.link';
+  const statusText = document.getElementById('serverStatusText');
+  
+  try {
+    const response = await fetch(`https://api.mcsrvstat.us/2/${ip}`);
+    const data = await response.json();
+    
+    if (data.online) {
+      statusText.innerText = `Онлайн (${data.players.online}/${data.players.max})`;
+      statusText.style.color = '#4caf50';
+    } else {
+      statusText.innerText = 'Офлайн (Сервер відпочиває)';
+      statusText.style.color = '#e53935';
+    }
+  } catch (error) {
+    statusText.innerText = 'Працює в режимі супутника';
+    statusText.style.color = '#dca355';
+  }
+}
+
+// Запуск перевірки при завантаженні
+document.addEventListener('DOMContentLoaded', checkServerStatus);

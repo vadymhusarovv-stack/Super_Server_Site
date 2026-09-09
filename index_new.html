@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeterna — Королівство Без Назви</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style_new.css">
+</head>
+
+<body>
+
+    <header class="top-nav">
+        <div class="nav-logo">👑 Super Server</div>
+        <nav class="nav-links">
+            <a href="./wiki/#/">📚 Вікіпедія</a>
+            <a href="map.html">🗺️ Карта</a>
+            <a href="discord.html">💬 Discord</a>
+            <a href="news.html">📰 Новини</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 class="hero-title">Super Server</h1>
+        <p class="hero-subtitle">Королівство Без Назви — Ласкаво просимо до нашого світу!</p>
+
+        <div class="ip-container" id="ipContainer">
+            <div class="ip-info">
+                <span class="ip-label">IP Сервера:</span>
+                <span class="ip-address" id="serverIP">listing-dans.gl.joinmc.link</span>
+            </div>
+            <button class="copy-btn" onclick="copyServerIP()">📋 Скопіювати IP</button>
+            <div class="copy-toast" id="copyToast">Скопійовано в буфер!</div>
+        </div>
+
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text">Статус: <strong id="serverStatusText">Перевірка...</strong></span>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <h2 class="section-title">Основні Розділи</h2>
+
+        <div class="cards-grid">
+            <a href="./wiki/#/" class="card">
+                <div class="card-icon">📚</div>
+                <h3>База Знань (Вікі)</h3>
+                <p>Досліджуйте хроніки, лор світу, фракції та історію NPC Алхіміка Брауна.</p>
+                <span class="card-link">Перейти до Вікі →</span>
+            </a>
+
+            <a href="map.html" class="card">
+                <div class="card-icon">🗺️</div>
+                <h3>Онлайн Карта</h3>
+                <p>Переглядайте світ Aeterna у реальному часі через інтерфейс BlueMap.</p>
+                <span class="card-link">Відкрити карту →</span>
+            </a>
+
+            <a href="discord.html" class="card">
+                <div class="card-icon">💬</div>
+                <h3>Discord Спільнота</h3>
+                <p>Спілкуйтеся з гравцями, отримуйте ролі та дізнавайтеся про події першими.</p>
+                <span class="card-link">Приєднатися →</span>
+            </a>
+
+            <a href="chronicle.html" class="card">
+                <div class="card-icon">📜</div>
+                <h3>Правила Сервера</h3>
+                <p>Ознайомтеся з кодексом законів Королівства для комфортної гри.</p>
+                <span class="card-link">Читати правила →</span>
+            </a>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 50px;">Ресурси та Завантаження</h2>
+        <div class="resources-grid">
+            <a href="files/rules.txt" class="resource-btn">📥 Скачати правила сервера</a>
+            <button onclick="downloadARGFiles()" class="resource-btn accent">
+                ⚙️ Автоматизація v1.0.3
+            </button>
+            <a href="extension.html" class="resource-btn">🧩 Завантажити розширення</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-sub">Базується на Paper 1.21.10</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

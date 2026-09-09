@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #282828;
+}
+
+.nav-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #dca355;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #dca355;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: radial-gradient(circle at top, #221c13 0%, #121212 70%);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #dca355;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(220, 163, 85, 0.2);
+}
+
+.hero-subtitle {
+  color: #888888;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.ip-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 12px 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.ip-address {
+  font-family: monospace;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.copy-btn {
+  background-color: #282828;
+  color: #dca355;
+  border: 1px solid #b57c32;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background-color: #dca355;
+  color: #121212;
+}
+
+.copy-toast {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #dca355;
+  color: #121212;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.copy-toast.show {
+  opacity: 1;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  background: #181818;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid #282828;
+  font-size: 0.9rem;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  box-shadow: 0 0 8px #4caf50;
+}
+
+.main-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-left: 4px solid #dca355;
+  padding-left: 12px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #282828;
+  border-radius: 12px;
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #dca355;
+  box-shadow: 0 8px 20px rgba(220, 163, 85, 0.1);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #888888;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.card-link {
+  color: #dca355;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.resources-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.resource-btn {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.resource-btn:hover {
+  border-color: #dca355;
+  color: #dca355;
+}
+
+.resource-btn.accent {
+  border-color: #2e7d32;
+  color: #81c784;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #161616;
+  border-top: 1px solid #242424;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.footer-sub {
+  color: #b57c32;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
