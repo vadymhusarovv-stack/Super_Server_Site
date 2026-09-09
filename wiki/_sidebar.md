@@ -153,3 +153,6 @@
   - [🕵️‍♂️ ARG-1](guildes/arg_1.md)
   - [📁 ARG-2](guildes/arg_2.md)
   - [🧩 Розширення для браузера](guildes/extention.md)
+  - [🤖 Discord Bot](guildes/discord_bot.md)
+  - [📱 Telegram Bot](guildes/telegram_bot.md)
+  
