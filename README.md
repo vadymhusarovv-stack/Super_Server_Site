@@ -1,5 +1,10 @@
 # 🌟 Super Server Site — Королівство Без Назви
 
+![GitHub Pages Status](https://img.shields.io/badge/Super_Server%20Wiki-Online-gold?style=for-the-badge&logo=github)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.10-green?style=for-the-badge&logo=minecraft)
+![GitHub discussions](https://img.shields.io/github/discussions/vadymhusarovv-stack/Super_Server_Site?style=for-the-badge&color=dca355)
+![GitHub last commit](https://img.shields.io/github/last-commit/vadymhusarovv-stack/Super_Server_Site?style=for-the-badge&color=blue)
+
 Ласкаво просимо до офіційного репозиторію веб-порталу нашого Майнкрафт сервера! Цей проєкт містить головну сторінку сервера, технічні модулі, інтеграцію з Discord та нашу власну базу знань (Вікі).
 
 ## 🔗 Швидкі посилання
