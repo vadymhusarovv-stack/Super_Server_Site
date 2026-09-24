@@ -1,26 +1,55 @@
 const serverIP = 'listing-dans.gl.joinmc.link';
 
 async function checkServerStatus() {
+    // Елементи для старої сторінки (index.html)
+    const oldStatusElement = document.getElementById('server-status');
+    const oldPlayersElement = document.getElementById('server-online-players');
+
+    // Елемент для нової сторінки (index_new.html)
+    const newStatusText = document.getElementById('serverStatusText');
+
     try {
-        const response = await fetch(`https://api.minetools.eu/ping/${serverIP}`);
+        const response = await fetch(`https://api.mcsrvstat.us/2/${serverIP}`);
         const data = await response.json();
 
-        const statusElement = document.getElementById('server-status');
-        const playersElement = document.getElementById('server-online-players');
+        if (data.online) {
+            // Оновлюємо стару сторінку, якщо вона відкрита
+            if (oldStatusElement) {
+                oldStatusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
+            }
+            if (oldPlayersElement) {
+                oldPlayersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
+            }
 
-        if (data.error) {
-            statusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
-            playersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+            // Оновлюємо нову сторінку, якщо вона відкрита
+            if (newStatusText) {
+                newStatusText.innerHTML = `<span style="color: #2ecc71;">🟢 Онлайн (${data.players.online}/${data.players.max})</span>`;
+            }
         } else {
-            statusElement.innerHTML = '<span style="color: #2ecc71;">🟢 Онлайн</span>';
-            playersElement.innerHTML = `Гравців у грі: <strong>${data.players.online} / ${data.players.max}</strong>`;
+            // Режим Офлайн
+            if (oldStatusElement) {
+                oldStatusElement.innerHTML = '<span style="color: #e74c3c;">🔴 Офлайн</span>';
+            }
+            if (oldPlayersElement) {
+                oldPlayersElement.innerHTML = 'Сервер відпочиває. Заходь пізніше!';
+            }
+            if (newStatusText) {
+                newStatusText.innerHTML = '<span style="color: #e53935;">🔴 Офлайн (Сервер відпочиває)</span>';
+            }
         }
     } catch (error) {
-        document.getElementById('server-status').innerText = 'Не вдалося завантажити статус';
+        // Помилка завантаження
+        if (oldStatusElement) {
+            oldStatusElement.innerText = 'Не вдалося завантажити статус';
+        }
+        if (newStatusText) {
+            newStatusText.innerHTML = '<span style="color: #dca355;">Працює в режимі супутника</span>';
+        }
     }
 }
 
-checkServerStatus();
+// Запускаємо перевірку при завантаженні будь-якої зі сторінок
+document.addEventListener('DOMContentLoaded', checkServerStatus);
 
 
 const modal = document.getElementById("myModal");
@@ -284,27 +313,3 @@ function copyServerIP() {
   });
 }
 
-// Перевірка реального статусу через публічний API Майнкрафт
-async function checkServerStatus() {
-  const ip = 'listing-dans.gl.joinmc.link';
-  const statusText = document.getElementById('serverStatusText');
-  
-  try {
-    const response = await fetch(`https://api.mcsrvstat.us/2/${ip}`);
-    const data = await response.json();
-    
-    if (data.online) {
-      statusText.innerText = `Онлайн (${data.players.online}/${data.players.max})`;
-      statusText.style.color = '#4caf50';
-    } else {
-      statusText.innerText = 'Офлайн (Сервер відпочиває)';
-      statusText.style.color = '#e53935';
-    }
-  } catch (error) {
-    statusText.innerText = 'Працює в режимі супутника';
-    statusText.style.color = '#dca355';
-  }
-}
-
-// Запуск перевірки при завантаженні
-document.addEventListener('DOMContentLoaded', checkServerStatus);
