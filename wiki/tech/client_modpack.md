@@ -21,7 +21,7 @@
 
 1. 📂 **Завантажте файл збірки:** Перейдіть за офіційним посиланням у нашому Discord (формат `.zip` архів).
 2. 🎮 **Оберіть лаунчер:** Рекомендуємо використовувати сучасні лаунчери (збірка розроблена для Prism Launcher.)
-3. 🔄 **Імпорт:** Просто перетягніть завантажений файл у вікно лаунчера. Він автоматично завантажить правильну версію Fabric, Minecraft **1.21.10** та всі необхідні моди.
+3. 🔄 **Імпорт:** Просто перетягніть завантажений файл у вікно лаунчера. Він автоматично завантажить правильну версію Fabric, Minecraft **26.1.2** та всі необхідні моди.
 4. 🔌 **Підключайтеся:** Вводьте нашу основну або резервну адресу та починайте пригоду!
 
 ---
@@ -43,7 +43,7 @@
 <div style="background: #11111b; border: 2px solid #89dceb; border-radius: 8px; padding: 15px; font-family: sans-serif; color: #cdd6f4; box-shadow: 0 4px 12px rgba(137,220,235,0.2);">
   <h3 style="margin-top: 0; text-align: center; color: #89dceb; border-bottom: 2px solid #313244; padding-bottom: 8px; font-size: 17px;">📦 Клієнтська збірка</h3>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important; margin-top: 10px;">
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Платформа:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">Fabric (1.21.10)</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Платформа:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">Fabric (26.1.2)</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Оптимізація:</td><td style="padding: 5px 4px; background: transparent !important; color: #a6e3a1; font-weight: bold;">Sodium / Lithium</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Голосовий чат:</td><td style="padding: 5px 4px; background: transparent !important; color: #fab387;">Simple Voice Chat</td></tr>
   </table>
