@@ -12,7 +12,7 @@
 
 Інженерні та системні деталі (для допитливих):
 * 🔌 **Плагіни сервера:** Перелік ключових інструментів, які забезпечують роботу економіки, NPC, кастомних крафтів та меню.
-* 📦 **Датапаки:** Спеціальні модифікації, що розширюють базові механіки Minecraft версії 1.21.10.
+* 📦 **Датапаки:** Спеціальні модифікації, що розширюють базові механіки Minecraft версії 26.1.2.
 * 💾 **Система Бекапів:** Інформація про збереження світу та офіційне посилання на Google Диск, де зберігаються останні декілька резервних копій сервера на випадок непередбачуваних обставин.
 
 ---
@@ -34,7 +34,7 @@
 
 #### 🛡️ Стабільність та версійність
 Наш сервер працює на сучасній технічній базі, що дозволяє поєднувати високу продуктивність із купою кастомних фішок:
-1. **Основна версія:** Minecraft 1.21.10 (слідкуйте за оголошеннями щодо оновлень).
+1. **Основна версія:** Minecraft 26.1.2 (слідкуйте за оголошеннями щодо оновлень).
 2. **Оптимізація:** Світ регулярно очищується від зайвого сміття, а бекапи створюються автоматично за розкладом.
 3. **Підтримка:** Якщо ви знайшли баг у роботі меню, NPC чи кастомних рецептів — обов'язково повідомте Адміністрацію.
 
@@ -48,7 +48,7 @@
     <i style="display: block; font-size: 11px; color: #a6adc8; margin-top: 5px;">Ядро та стабільність ери Aeterna</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important;">
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Версія гри:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">1.21.10</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Версія гри:</td><td style="padding: 5px 4px; background: transparent !important; color: #cdd6f4;">26.1.2</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Резервні копії:</td><td style="padding: 5px 4px; background: transparent !important; color: #a6e3a1; font-weight: bold;">Google Диск</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 5px 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Доступність:</td><td style="padding: 5px 4px; background: transparent !important; color: #f9e2af;">Усі гравці</td></tr>
   </table>
