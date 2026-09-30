@@ -24,6 +24,7 @@
       subMaxLevel: 4,
       sidebarDisplayLevel: 1,
       homepage: 'home.md',
+      auto2top: true,
 
       sidebarCollapse: {
         collapseLevel: 1,
@@ -125,6 +126,24 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/docsify-giscus@1/dist/docsify-giscus.min.js"></script>
+
+  <script>
+    window.$docsify = window.$docsify || {};
+    window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook) {
+      // Коли сторінка повністю завантажилася — перевіряємо, чи є збережений скрол
+      hook.doneEach(function () {
+        const savedPosition = localStorage.getItem('docsify-scroll-' + location.hash);
+        if (savedPosition) {
+          window.scrollTo(0, parseInt(savedPosition, 10));
+        }
+      });
+
+      // Під час скролу зберігаємо поточну позицію для цієї конкретної сторінки
+      window.addEventListener('scroll', function () {
+        localStorage.setItem('docsify-scroll-' + location.hash, window.scrollY);
+      });
+    });
+  </script>
 
 </body>
 
