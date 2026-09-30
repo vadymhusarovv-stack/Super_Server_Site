@@ -14,18 +14,18 @@
 ### 🔒 Багаторівнева Система Секретних Проходів
 Щоб потрапити всередину лабораторії, недостатньо просто відчинити дубові двері хатинки. Доступ захищено системою послідовних шлюзів:
 
-1. **Перший рубіж (Прихований механізм):** Усередині будиночка інтегровано непомітний тригер (таємна кнопка, важіль або оновлення блоку), який активує поршневу систему та відкриває прохід у підлогу.
+1. **Перший рубіж (Прихований механізм):** Усередині будиночка інтегровано непомітний тригер, який активує поршневу систему та відкриває прохід у підлогу.
 2. **Транзитний коридор:** Гравець потрапляє в проміжну буферну зону з ще декількома механізмами щоб відволікти непроханих гостей.
-3. **Гермошлюз комплексу:** Лише після проходження всіх секретних кімнат відкривається доступ до головної вертикальної шахти зі швидкісним ліфтом, що веде глибоко під землю до масивних гермоворіт лабораторії.
+3. **Гермошлюз комплексу:** Лише після проходження всіх секретних кімнат відкривається доступ до масивних гермоворіт лабораторії.
 
 ---
 
 ### ⚙️ Внутрішня Структура та Відділи
 Під землею комплекс розгортається у повну силу, контрастуючи з наземною хатинкою стінами з полірованого глибинного сланцю, заліза та кварцу:
 
-* ⚡ **Енергетичний Вузол:** Сектор стабілізації магічної енергії та живлення квантових пристроїв за допомогою ресурсів із Незеру та Енду.
+* ⚡ **Телепортер:** Сектор призначений для екстреного виходу з лабараторії.
 * 🔬 **Дослідницька Зона:** Головний зал із хімічними лабораторіями, алхімічними стійками вищого рівня та столами для розбирання артефактів.
-* 📦 **Спецсховище:** Захищений бункер для зберігання найбільш небезпечних та рідкісних матеріалів.
+* 📦 **Спецсховище:** Місце для зберігання рідкісних матеріалів та книжок.
 
 ---
 
@@ -50,7 +50,7 @@
     <i style="display: block; font-size: 11px; color: #a6adc8; margin-top: 5px;">Наземний маскувальний фасад і пасіка</i>
   </div>
   <table style="width: 100%; border-collapse: collapse; font-size: 12px; background: transparent !important;">
-    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Тип об'єкта:</td><td style="padding: 4px; background: transparent !important; color: #cdd6f4;">Секретний Бункер / НДІ</td></tr>
+    <tr style="background: transparent !important; border-bottom: 1px solid #313244;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Тип об'єкта:</td><td style="padding: 4px; background: transparent !important; color: #cdd6f4;">Секретний Бункер</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Вхідний шлюз:</td><td style="padding: 4px; background: transparent !important; color: #94e2d5;">Крихітний будинок пасічника</td></tr>
     <tr style="border-bottom: 1px solid #313244; background: transparent !important;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Захист:</td><td style="padding: 4px; background: transparent !important; color: #a6e3a1;">Багаторівневі проходи</td></tr>
     <tr style="background: transparent !important;"><td style="padding: 4px; font-weight: bold; color: #89b4fa; background: transparent !important;">Рівень загрози:</td><td style="padding: 4px; background: transparent !important; color: #f38ba8;">Контрольований</td></tr>
