@@ -3,36 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Онлайн Карта Сервера</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн Карта — Королівство Без Назви</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_improve.css">
 </head>
 
 <body>
 
-    <a href="index.html" class="btn btn-map">⬅ На головну</a>
-    <h2>Жива карта нашого світу</h2>
+    <!-- Верхня навігація -->
+    <header class="top-nav">
+        <div class="nav-logo">👑 SUPER SERVER</div>
+        <nav class="nav-links">
+            <a href="index.html">🏠 Головна</a>
+            <a href="./wiki/#/">📚 Вікі</a>
+            <a href="discord.html">💬 Discord</a>
+            <a href="news.html">📰 Новини</a>
+            <a href="chronicle.html">📜 Правила</a>
+        </nav>
+    </header>
 
-    <div class="server-links">
-        <a href="https://discord.gg/gmSFeDv6bN" class="btn btn-ds-map" target="_blank">Одноразове посилання на другу
-            карту</a>
-    </div>
+    <main class="main-content" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+        <h2
+            style="color: #dca355; font-size: 1.8rem; margin-bottom: 15px; border-left: 4px solid #dca355; padding-left: 12px;">
+            Жива карта нашого світу</h2>
 
+        <div style="margin-bottom: 20px;">
+            <a href="https://discord.gg/gmSFeDv6bN" class="resource-btn" target="_blank">🔗 Одноразове посилання на
+                другу карту</a>
+        </div>
 
-    <iframe src="https://snort-unsent-grafted.ngrok-free.dev/" width="100%" height="700px"
-        style="border: 2px solid #555; border-radius: 12px;"></iframe>
+        <iframe src="https://snort-unsent-grafted.ngrok-free.dev/" width="100%" height="700px"
+            style="border: 2px solid #333; border-radius: 12px; background: #1a1a1a;"></iframe>
+    </main>
 
-    <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
-        </p>
-
-        <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
-                style="color: #89b4fa;">Paper
-                1.21.10</span></p>
-
-        <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
-
+    <!-- Футер -->
+    <footer class="site-footer">
+        <p class="footer-text">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-text sub">Базується на <span style="color: #89b4fa;">Paper 1.21+</span></p>
+        <p class="footer-text">
             <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
-                style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
+                class="footer-link">GitHub Репозиторій</a>
         </p>
     </footer>
 

@@ -313,3 +313,117 @@ function copyServerIP() {
   });
 }
 
+
+
+    // 1. Ефект друкарської машинки для слогана
+    document.addEventListener("DOMContentLoaded", function() {
+        if (document.getElementById("typed-slogan")) {
+            new Typed("#typed-slogan", {
+                strings: [
+                    "Вітаємо на офіційному порталі Королівства!",
+                    "Тут живуть легенди, кастомні плагіни та справжня атмосфера.",
+                    "Увага: система спостерігає за кожним вашим кроком..."
+                ],
+                typeSpeed: 50,
+                backSpeed: 30,
+                loop: true,
+                smartBackspace: true
+            });
+        }
+    });
+
+    // 2. Функція салюту з конфеті для пасхалок або кнопок
+    function triggerConfetti() {
+        confetti({
+            particleCount: 120,
+            spread: 80,
+            origin: { y: 0.6 }
+        });
+    }
+// === ФІНАЛЬНА ІНІЦІАЛІЗАЦІЯ ЕФЕКТІВ (Asciinema та Three.js) ===
+document.addEventListener("DOMContentLoaded", function () {
+    
+    // 1. Ініціалізація Feather Icons
+    if (typeof feather !== 'undefined') {
+        feather.replace();
+    }
+
+    // 2. Ініціалізація Lucide Icons
+    if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+    }
+
+    // 3. Запуск Asciinema Плеєра
+    const terminalEl = document.getElementById('terminal-container');
+    if (terminalEl) {
+        AsciinemaPlayer.create(
+            'files/server-start.cast', 
+            terminalEl, 
+            {
+                cols: 80,
+                rows: 20,
+                theme: 'dracula',
+                autoPlay: true,
+                loop: true,
+                speed: 1.5
+            }
+        );
+    }
+
+    // 4. Запуск Three.js 3D-Кристала
+    const container = document.getElementById('three-container');
+    if (container && typeof THREE !== 'undefined') {
+        const scene = new THREE.Scene();
+        
+        const camera = new THREE.PerspectiveCamera(60, container.clientWidth / container.clientHeight, 0.1, 1000);
+        camera.position.z = 5;
+
+        const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+        renderer.setSize(container.clientWidth, container.clientHeight);
+        container.appendChild(renderer.domElement);
+
+        const geometry = new THREE.IcosahedronGeometry(1.8, 0); 
+        const material = new THREE.MeshStandardMaterial({
+            color: 0xffd700,       // Яскравіший золотий
+            emissive: 0x332200,    // Легке внутрішнє світіння
+            wireframe: true,       
+            roughness: 0.1,
+            metalness: 0.9
+        });
+        
+        const crystal = new THREE.Mesh(geometry, material);
+        scene.add(crystal);
+
+        const light = new THREE.PointLight(0xffea75, 4, 100);
+        light.position.set(5, 5, 5);
+        scene.add(light);
+
+        const ambientLight = new THREE.AmbientLight(0xffcc00, 1.2);
+        scene.add(ambientLight);
+
+        let mouseX = 0; 
+        let mouseY = 0;
+
+        document.addEventListener('mousemove', (event) => {
+            mouseX = (event.clientX / window.innerWidth) - 0.5;
+            mouseY = (event.clientY / window.innerHeight) - 0.5;
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            crystal.rotation.x += 0.005;
+            crystal.rotation.y += 0.008;
+            crystal.rotation.x += (mouseY * 0.5 - crystal.rotation.x) * 0.05;
+            crystal.rotation.y += (mouseX * 0.5 - crystal.rotation.y) * 0.05;
+            renderer.render(scene, camera);
+        }
+        
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = container.clientWidth / container.clientHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(container.clientWidth, container.clientHeight);
+        });
+    }
+});

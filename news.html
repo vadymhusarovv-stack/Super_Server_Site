@@ -7,192 +7,226 @@
     <title>📰 Новини — Королівство Без Назви</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_improve.css">
 </head>
 
 <body>
 
-    <a href="index.html" class="btn btn-map">← Повернутися до Головної</a>
-
-    <header class="news-header">
-        <h1>📰 Оновлення Королівства</h1>
-        <p>Найсвіжіші події, хроніки мандрівників та технічні звіти.</p>
-        <p>Також побачити новини раніше ви зможете у нашому</p>
-        дискорд сервері
+    <!-- Верхня навігація -->
+    <header class="top-nav">
+        <div class="nav-logo">👑 SUPER SERVER</div>
+        <nav class="nav-links">
+            <a href="index.html">🏠 Головна</a>
+            <a href="./wiki/#/">📚 Вікі</a>
+            <a href="map.html">🗺️ Карта</a>
+            <a href="discord.html">💬 Discord</a>
+            <a href="chronicle.html">📜 Правила</a>
+        </nav>
     </header>
 
-    <main class="news-container">
+    <main class="main-content" style="max-width: 1100px; margin: 40px auto; padding: 0 20px;">
+        <header class="news-header" style="text-align: center; margin-bottom: 40px;">
+            <h1
+                style="color: #dca355; font-size: 2.5rem; margin-bottom: 10px; border: none; background: transparent; padding: 0;">
+                📰 Оновлення Королівства</h1>
+            <p style="color: #888; font-size: 1.1rem; margin-bottom: 5px;">Найсвіжіші події, хроніки мандрівників та
+                технічні звіти.</p>
+            <p style="color: #aaa; font-size: 0.95rem;">Також побачити новини раніше ви зможете у нашому <a
+                    href="discord.html" style="color: #dca355; text-decoration: underline;">дискорд сервері</a></p>
+        </header>
 
-        <article class="news-card future-release">
-            <div class="news-image-placeholder" style="background-image: url('images/news/gears.jpg');">
-                <span class="category-tag global">Тимчасова зупинка</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">13 Жовтня, 2026</span>
-                <h2>Глобальна технічна перерва!</h2>
-                <p>Сервер тимчасово іде на масштабну модернізацію та перебалансування.</p>
+        <div class="news-container">
 
-                <details class="news-spoiler">
-                    <summary>Читати деталі →</summary>
-                    <div class="full-text">
-                        <p>Ми розпочинаємо капітальне оновлення інфраструктури та ігрового світу проєкту.</p>
-                        <p><strong>Головні напрямки оновлення:</strong></p>
-                        <ul>
-                            <li><strong>Новий контент:</strong> Розбудова Помаранчевої зони, Ущелини Матерії та
-                                кастомних підземель.</li>
-                            <li><strong>Оптимізація та баланс:</strong> Очищення від зайвих плагінів, переробка
-                                економіки та підвищення стабільності.</li>
-                            <li><strong>Збереження прогресу:</strong> Усі ваші основні кастомні механіки, досягнення та
-                                лорні ранги залишаються недоторканими!</li>
-                        </ul>
-                        <p><i>Примітка: Це технічна модернізація проєкту, а не повний вайп світу чи початок нового
-                                сезону.</i></p>
-                    </div>
-                </details>
-            </div>
-        </article>
+            <article class="news-card future-release">
+                <div class="news-image-placeholder" style="background-image: url('images/news/gears.jpg');">
+                    <span class="category-tag global">Тимчасова зупинка</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">13 Жовтня, 2026</span>
+                    <h2>Глобальна технічна перерва!</h2>
+                    <p>Сервер тимчасово іде на масштабну модернізацію та перебалансування.</p>
 
-        <article class="news-card future-release">
-            <div class="news-image-placeholder" style="background-image: url('images/news/grand_opening.png');">
-                <span class="category-tag global">🚀 Глобальне Оновлення</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">27 Вересня, 2026</span>
-                <h2>Нарешті! Сервер оновлено до новішої версії!</h2>
-                <p>Ми провели велику технічну роботу, переступили через низку «сходинок» оновлень і раді оголосити: наш
-                    сервер офіційно працює на новій версії...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Тепер ми працюємо на <strong>найновішій версії!</strong> <i>(Ну... майже найновішій 🤫😁, але
-                                найстабільнішій та найкрутішій для комфортної гри)</i>.</p>
-                        <p><strong>Що це означає для вас:</strong></p>
-                        <ul>
-                            <li><strong>Грати стане ще краще:</strong> Оптимізована робота світу, покращена генерація та
-                                стабільніший FPS.</li>
-                            <li><strong>Плавність та комфорт:</strong> Усунено купу старих помилок і покращено взаємодію
-                                з плагінами.</li>
-                            <li><strong>Новий досвід:</strong> Усі ваші улюблені кастомні механіки, ранги та здобутки
-                                залишаються з вами!</li>
-                        </ul>
-                        <p>Не забудьте змінити версію у вашому лаунчері перед входом на сервер, а також за потреби
-                            оновити свої моди та ресурспаки!</p>
-                    </div>
-                </details>
-            </div>
-        </article>
+                    <details class="news-spoiler">
+                        <summary>Читати деталі →</summary>
+                        <div class="full-text">
+                            <p>Ми розпочинаємо капітальне оновлення інфраструктури та ігрового світу проєкту.</p>
+                            <p><strong>Головні напрямки оновлення:</strong></p>
+                            <ul>
+                                <li><strong>Новий контент:</strong> Розбудова Помаранчевої зони, Ущелини Матерії та
+                                    кастомних підземель.</li>
+                                <li><strong>Оптимізація та баланс:</strong> Очищення від зайвих плагінів, переробка
+                                    економіки та підвищення стабільності.</li>
+                                <li><strong>Збереження прогресу:</strong> Усі ваші основні кастомні механіки, досягнення
+                                    та лорні ранги залишаються недоторканими!</li>
+                            </ul>
+                            <p><i>Примітка: Це технічна модернізація проєкту, а не повний вайп світу чи початок нового
+                                    сезону.</i></p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card future-release">
-            <div class="news-image-placeholder" style="background-image: url('images/news/grand_opening.png');">
-                <span class="category-tag global">🚀 Глобальний Оновлення</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">31 Серпня, 2026</span>
-                <h2>Велике відкриття: Королівство відчиняє браму!</h2>
-                <p>Літній перепочинок та локальні тести на ПК адміна офіційно завершено. Сервер переходить у цілодобовий
-                    публічний режим для всіх мандрівників...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Час настав! Усі технічні блоки знято, конфігурації оптимізовано, а світ готовий приймати
-                            героїв.</p>
-                        <p>Готуйте спорядження, збирайте друзів та будуйте перші плани. На вас чекають
-                            оновлені зони, стабільний ТПС та купа секретів!</p>
-                    </div>
-                </details>
-            </div>
-        </article>
+            <article class="news-card future-release">
+                <div class="news-image-placeholder" style="background-image: url('images/news/grand_opening.png');">
+                    <span class="category-tag global">🚀 Глобальне Оновлення</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">27 Вересня, 2026</span>
+                    <h2>Нарешті! Сервер оновлено до новішої версії!</h2>
+                    <p>Ми провели велику технічну роботу, переступили через низку «сходинок» оновлень і раді оголосити:
+                        наш сервер офіційно працює на новій версії...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Тепер ми працюємо на <strong>найновішій версії!</strong> <i>(Ну... майже найновішій 🤫😁,
+                                    але найстабільнішій та найкрутішій для комфортної гри)</i>.</p>
+                            <p><strong>Що це означає для вас:</strong></p>
+                            <ul>
+                                <li><strong>Грати стане ще краще:</strong> Оптимізована робота світу, покращена
+                                    генерація та стабільніший FPS.</li>
+                                <li><strong>Плавність та комфорт:</strong> Усунено купу старих помилок і покращено
+                                    взаємодію з плагінами.</li>
+                                <li><strong>Новий досвід:</strong> Усі ваші улюблені кастомні механіки, ранги та
+                                    здобутки залишаються з вами!</li>
+                            </ul>
+                            <p>Не забудьте змінити версію у вашому лаунчері перед входом на сервер, а також за потреби
+                                оновити свої моди та ресурспаки!</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card future-release">
-            <div class="news-image-placeholder" style="background-image: url('images/news/wiki_update_banner.png');">
-                <span class="category-tag docs">📚 База Знань</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">29 Серпня, 2026</span>
-                <h2>Запуск офіційної Вікі Королівства!</h2>
-                <p>Блукаєте в пошуках квестів чи не знаєте, як працюють нові механіки? Ми зібрали повний путівник для
-                    кожного мандрівника в одному зручному місці...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Відтепер усі кастомні рецепти, описи зон, правила Королівства та детальні гайди (включаючи
-                            підказки до розслідування АРГ №2) доступні на нашому новому сайті документообігу.</p>
-                        <p>Більше не потрібно випитувати в адмінів координати чи команди — відкривайте Вікі та
-                            дізнавайтеся все першими!</p>
-                    </div>
-                </details>
-            </div>
-        </article>
+            <article class="news-card future-release">
+                <div class="news-image-placeholder" style="background-image: url('images/news/grand_opening.png');">
+                    <span class="category-tag global">🚀 Глобальний Оновлення</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">31 Серпня, 2026</span>
+                    <h2>Велике відкриття: Королівство відчиняє браму!</h2>
+                    <p>Літній перепочинок та локальні тести на ПК адміна офіційно завершено. Сервер переходить у
+                        цілодобовий публічний режим для всіх мандрівників...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Час настав! Усі технічні блоки знято, конфігурації оптимізовано, а світ готовий приймати
+                                героїв.</p>
+                            <p>Готуйте спорядження, збирайте друзів та будуйте перші плани. На вас чекають оновлені
+                                зони, стабільний ТПС та купа секретів!</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card">
-            <div class="news-image-placeholder" style="background-image: url('images/news/orange_bild_v1.png');">
-                <span class="category-tag bild">🔨 Будівництво</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">01 Липня, 2026</span>
-                <h2>Продовження розвитку: Помаранчева зона.</h2>
-                <p>Рішення ради Довірених повернуло розвиток Помаранчевої зони.</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Помаранчева зона продовжує розвиток.</p>
-                        <p>Зведено декілька військових оборонних споруд а, також декілька житлових будинків</p>
-                    </div>
-        </article>
+            <article class="news-card future-release">
+                <div class="news-image-placeholder"
+                    style="background-image: url('images/news/wiki_update_banner.png');">
+                    <span class="category-tag docs">📚 База Знань</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">29 Серпня, 2026</span>
+                    <h2>Запуск офіційної Вікі Королівства!</h2>
+                    <p>Блукаєте в пошуках квестів чи не знаєте, як працюють нові механіки? Ми зібрали повний путівник
+                        для кожного мандрівника в одному зручному місці...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Відтепер усі кастомні рецепти, описи зон, правила Королівства та детальні гайди
+                                (включаючи підказки до розслідування АРГ №2) доступні на нашому новому сайті
+                                документообігу.</p>
+                            <p>Більше не потрібно випитувати в адмінів координати чи команди — відкривайте Вікі та
+                                дізнавайтеся все першими!</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card">
-            <div class="news-image-placeholder" style="background-image: url('images/news/arena.png');">
-                <span class="category-tag event">⚔️ Локації</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">30 Червня, 2026</span>
-                <h2>Нова арена у Помаранчевій зоні готова до битв!</h2>
-                <p>Велична середньовічна арена з каменю та кругляка офіційно добудована. Рада Титанів готує перший
-                    гладіаторський турнір для мандрівників...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Нарешті після неймовірно довгого часу розвиток Помаранчевої зони почався!!</p>
-                        <p>Зведено перші будівлі які доповнюють цю зону.</p>
-                    </div>
-        </article>
+            <article class="news-card">
+                <div class="news-image-placeholder" style="background-image: url('images/news/orange_bild_v1.png');">
+                    <span class="category-tag bild">🔨 Будівництво</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">01 Липня, 2026</span>
+                    <h2>Продовження розвитку: Помаранчева зона.</h2>
+                    <p>Рішення ради Довірених повернуло розвиток Помаранчевої зони.</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Помаранчева зона продовжує розвиток.</p>
+                            <p>Зведено декілька військових оборонних споруд а, також декілька житлових будинків</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card">
-            <div class="news-image-placeholder" style="background-image: url('images/news/gears.jpg');">
-                <span class="category-tag update">🛠️ Оновлення</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">28 Червня, 2026</span>
-                <h2>Технічний патч: Оптимізація бекапів та нові плагіни</h2>
-                <p>Проведено планове очищення серверних логів. Наш архіватор успішно налаштував швидке стиснення файлів,
-                    а також інтегрував нові кастомні рецепти...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Деякі зміни у роботі сервера.</p>
-                        <p>Сподіваємось проводити час на сервері стане ще краще.</p>
-                    </div>
-        </article>
+            <article class="news-card">
+                <div class="news-image-placeholder" style="background-image: url('images/news/arena.png');">
+                    <span class="category-tag event">⚔️ Локації</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">30 Червня, 2026</span>
+                    <h2>Нова арена у Помаранчевій зоні готова до битв!</h2>
+                    <p>Велична середньовічна арена з каменю та кругляка офіційно добудована. Рада Титанів готує перший
+                        гладіаторський турнір для мандрівників...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Нарешті після неймовірно довгого часу розвиток Помаранчевої зони почався!!</p>
+                            <p>Зведено перші будівлі які доповнюють цю зону.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
-        <article class="news-card">
-            <div class="news-image-placeholder" style="background-image: url('images/news/scroll.png');">
-                <span class="category-tag lore">📖 Літопис</span>
-            </div>
-            <div class="news-content">
-                <span class="news-date">25 Червня, 2026</span>
-                <h2>Таємничий сувій: Знайдено згадки про перших мандрівників</h2>
-                <p>У пильних архівах замку було знайдено стародавню хроніку, що описує появу перших гравців на цих
-                    землях. Історія оживає на наших очах...</p>
-                <details class="news-spoiler">
-                    <summary>Читати далі →</summary>
-                    <div class="full-text">
-                        <p>Невідома інформація.</p>
-                        <p>Увага цю інформацію засекречено вам заборонено її переглядати.</p>
-                    </div>
-                </details>
-            </div>
-        </article>
+            <article class="news-card">
+                <div class="news-image-placeholder" style="background-image: url('images/news/gears.jpg');">
+                    <span class="category-tag update">🛠️ Оновлення</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">28 Червня, 2026</span>
+                    <h2>Технічний патч: Оптимізація бекапів та нові плагіни</h2>
+                    <p>Проведено планове очищення серверних логів. Наш архіватор успішно налаштував швидке стиснення
+                        файлів, а також інтегрував нові кастомні рецепти...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Деякі зміни у роботі сервера.</p>
+                            <p>Сподіваємось проводити час на сервері стане ще краще.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
 
+            <article class="news-card">
+                <div class="news-image-placeholder" style="background-image: url('images/news/scroll.png');">
+                    <span class="category-tag lore">📖 Літопис</span>
+                </div>
+                <div class="news-content">
+                    <span class="news-date">25 Червня, 2026</span>
+                    <h2>Таємничий сувій: Знайдено згадки про перших мандрівників</h2>
+                    <p>У пильних архівах замку було знайдено стародавню хроніку, що описує появу перших гравців на цих
+                        землях. Історія оживає на наших очах...</p>
+                    <details class="news-spoiler">
+                        <summary>Читати далі →</summary>
+                        <div class="full-text">
+                            <p>Невідома інформація.</p>
+                            <p>Увага цю інформацію засекречено вам заборонено її переглядати.</p>
+                        </div>
+                    </details>
+                </div>
+            </article>
+
+        </div>
     </main>
+
+    <!-- Футер -->
+    <footer class="site-footer">
+        <p class="footer-text">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-text sub">Базується на <span style="color: #89b4fa;">Paper 1.21+</span></p>
+        <p class="footer-text">
+            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
+                class="footer-link">GitHub Репозиторій</a>
+        </p>
+    </footer>
 
 </body>
 

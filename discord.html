@@ -4,45 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project "Super Server"</title>
+    <title>Discord Спільнота — Королівство Без Назви</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_improve.css">
+
+    <!-- Підключаємо скрипт Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <a href="index.html" class="btn btn-ds">⬅ Назад на головну</a>
+
+    <!-- Верхня навігація -->
+    <header class="top-nav">
+        <div class="nav-logo">👑 SUPER SERVER</div>
+        <nav class="nav-links">
+            <a href="index.html">🏠 Головна</a>
+            <a href="./wiki/#/">📚 Вікі</a>
+            <a href="map.html">🗺️ Карта</a>
+            <a href="news.html">📰 Новини</a>
+            <a href="chronicle.html">📜 Правила</a>
+        </nav>
+    </header>
+
+    <main class="main-content" style="max-width: 900px; margin: 40px auto; padding: 0 20px; text-align: center;">
+        <!-- Жива неонова іконка Discord із пульсацією -->
+        <div style="font-size: 50px; color: #5865F2; margin-bottom: 20px; animation: pulseIcon 2s infinite;">
+            <i class="fa-brands fa-discord"></i>
+        </div>
+
+        <style>
+            @keyframes pulseIcon {
+                0% {
+                    transform: scale(1);
+                    opacity: 0.8;
+                }
+
+                50% {
+                    transform: scale(1.1);
+                    opacity: 1;
+                    text-shadow: 0 0 15px #5865F2;
+                }
+
+                100% {
+                    transform: scale(1);
+                    opacity: 0.8;
+                }
+            }
+        </style>
+
+        <h1
+            style="color: #dca355; font-size: 2.2rem; margin-bottom: 15px; border: none; background: transparent; padding: 0;">
+            Discord Спільнота</h1>
+        <p style="color: #888; margin-bottom: 25px;">Спілкуйтеся з іншими мешканцями Королівства, отримуйте ролі та
+            стежте за анонсами.</p>
 
 
-    <div class="server-links">
-
-        <a href="https://discord.gg/XUUGknswwe" class="btn btn-ds" target="_blank">Наш Discord</a>
-
-    </div>
-
-    <div class="showcase-widget">
-
-        <iframe src="https://discord.com/widget?id=1492439392764166156&theme=dark" width="100%" height="400"
-            allowtransparency="true" frameborder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-
-        </iframe>
+        <!-- Вставляємо анімацію на сторінку -->
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_xyadoh9h.json" background="transparent"
+            speed="1"
+            style="width: 150px; height: 150px; width: 400px; margin-left: auto; margin-right: auto; margin: 0 auto;"
+            loop autoplay>
+        </lottie-player>
 
 
-        <footer class="footer" <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією
-            Святилища.
-            </p>
 
-            <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
-                    style="color: #89b4fa;">Paper
-                    1.21.10</span></p>
+        <div style="margin-bottom: 30px;">
+            <a href="https://discord.gg/XUUGknswwe" class="resource-btn discord-btn" target="_blank"
+                style="padding: 14px 30px; font-size: 1.1rem;">💬 Приєднатися до нашого Discord</a>
+        </div>
 
-            <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
+        <div class="showcase-widget"
+            style="background: #1a1a1a; padding: 15px; border-radius: 12px; border: 1px solid #282828;">
+            <iframe src="https://discord.com/widget?id=1492439392764166156&theme=dark" width="100%" height="450"
+                allowtransparency="true" frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                style="border-radius: 8px;">
+            </iframe>
+        </div>
+    </main>
 
-                <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
-                    style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
-            </p>
-        </footer>
-
+    <!-- Футер -->
+    <footer class="site-footer">
+        <p class="footer-text">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-text sub">Базується на <span style="color: #89b4fa;">Paper 1.21+</span></p>
+        <p class="footer-text">
+            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
+                class="footer-link">GitHub Репозиторій</a>
+        </p>
+    </footer>
 
 </body>
 

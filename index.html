@@ -2,7 +2,6 @@
 <html lang="uk">
 
 <head>
-
     <script>
 
         const referrer = document.referrer;
@@ -15,190 +14,265 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project "Super Server"</title>
+    <title>Project "Super Server" — Королівство Без Назви</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_improve.css">
+
+    <!-- 🎨 ПОВНИЙ ПАКЕТ ІКОНОК -->
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+    <!-- Simple Icons (через CDN для брендових логотипів) -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-icons@v10/index.js"></script>
+
+    <!-- 🎆 СКРИПТИ ДЛЯ ЕФЕКТІВ -->
+
+    <!-- Typed.js (ефект друку) -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Canvas Confetti (салюти) -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <!-- Підключаємо стилі та скрипт Asciinema player -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.min.js"></script>
+
+    <!-- Підключаємо скрипт Lottie Player -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- Підключаємо бібліотеку Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 
 <body>
 
-
-    <a href="map.html" class="btn btn-map">Онлайн Карта</a>
-    <a href="chronicle.html" class="btn btn-chronicle">Читати Правила</a>
-    <a href="discord.html" class="btn btn-ds">Онлайн учасники Discord</a>
-    <a href="./wiki/" class=" btn btn-wiki">Читати Вікі</a>
-    <a href="news.html" class=" btn btn-news">📰 Новини Королівства</a>
-
-    <button id="openModalBtn" class="btn btn-win0">📜 Відкрити Останній Розділ Літопису</button>
-
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <h2>📖 Сувій Літопису</h2>
-            <p>Новий розділ уже доступний на вікі</p>
-            <a href="./wiki" class="btn">Розділ XXV</a>
+    <!-- Екран завантаження -->
+    <div id="page-preloader">
+        <div class="preloader-content">
+            <div class="cyber-spinner"></div>
+            <p style="color: #d4af37; font-family: monospace; margin-top: 20px; letter-spacing: 2px;">ЗАВАНТАЖЕННЯ
+                СИСТЕМИ...</p>
         </div>
     </div>
 
-    <h1>Вас вітає Super Server!!!</h1>
+    <!-- Верхня навігація -->
+    <header class="top-nav">
+        <div class="nav-logo">👑 SUPER SERVER</div>
+        <nav class="nav-links">
+            <a href="./wiki/#/">📚 Вікі</a>
+            <a href="map.html">🗺️ Карта</a>
+            <a href="discord.html">💬 Discord</a>
+            <a href="news.html">📰 Новини</a>
+            <a href="chronicle.html">📜 Правила</a>
+            <a href="#" id="openModalBtn">📜 Літопис</a>
+        </nav>
+    </header>
 
-    <div class="server-links">
-        <a href="index_new.html" class=" btn btn-news">Оновлена головна сторінка</a>
-    </div>
+    <!-- Hero Секція -->
+    <section class="hero">
+        <h1 class="hero-title">Вас вітає Super Server!</h1>
+        <p class="hero-subtitle">Королівство Без Назви — зануртеся в атмосферний світ та досліджуйте наші території.</p>
 
-    <img src="images/img0.png" alt="img0" class="text-img">
+        <div style="text-align: center; margin: 20px 0;">
+            <p class="text-highlight" style="display: inline-block; width: auto; max-width: 100%; margin: 0 auto;">
+                <span id="typed-slogan"></span>
+            </p>
+        </div>
 
-    <p class="server-ip">Server IP: listing-dans.gl.joinmc.link</p>
+        <!-- Картинка-прев'ю (якщо потрібна) -->
+        <img src="images/img0.png" alt="img0" class="text-img" onclick="triggerConfetti()">
 
-    <div class="server-status-box">
-        <h3>Статус сервера: <span id="server-status">Перевірка...</span></h3>
-        <p id="server-online-players"></p>
-    </div>
+        <!-- Блок IP та Статусу -->
+        <div class="ip-container" id="ipContainer">
+            <div class="ip-info">
+                <span class="ip-label">Server IP:</span>
+                <span class="ip-address" id="serverIP">listing-dans.gl.joinmc.link</span>
+            </div>
+            <button class="copy-btn" onclick="copyServerIP(); triggerConfetti()">📋 Скопіювати IP</button>
+            <span class="copy-toast" id="copyToast">Скопійовано!</span>
+        </div>
 
-    <audio id="secret-sound" src="sounds/button_click.wav" preload="auto"></audio>
+        <div class="server-status-box">
+            <h3>Статус сервера: <span id="server-status">Перевірка...</span></h3>
+            <p id="server-online-players" style="margin: 5px 0 0 0; font-size: 0.9rem; color: #a6adc8;"></p>
+        </div>
+    </section>
 
-    <audio id="click-sound" src="sounds/click.ogg" preload="auto"></audio>
-
-    <audio id="success-sound" src="sounds/explosion.ogg" preload="auto"></audio>
-
-    <img id="secret-ameba" src="images/earth-icon.png" alt=""
-        style="width: 40px; height: 40px; cursor: pointer; opacity: 0.4; transition: all 0.3s ease;">
-
-    <audio id="console-sound" src="sounds/connetc_loop.wav" preload="auto"></audio>
-
-
-
-
-    <div
-        style="background-color: #1e1e2e; border: 2px solid #f9e2af; border-radius: 12px; padding: 25px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #cdd6f4; max-width: 650px; margin: 20px auto; box-shadow: 0 4px 15px rgba(249, 226, 175, 0.15);">
-        <div
-            style="display: flex; align-items: center; border-bottom: 2px solid #313244; padding-bottom: 15px; margin-bottom: 20px;">
-            <span style="font-size: 30px; margin-right: 15px; animation: spin 4s linear infinite;">🛠️</span>
+    <!-- Блок технічного обслуговування (той самий ламповий прикол) -->
+    <!--   <div class="maintenance-box">
+        <div class="maintenance-header">
+            <span style="font-size: 28px; margin-right: 15px; animation: spin 4s linear infinite;">🛠️</span>
             <div>
-                <h2 style="margin: 0; color: #f9e2af; font-size: 22px; text-transform: uppercase; letter-spacing: 1px;">
+                <h2 style="margin: 0; color: #f9e2af; font-size: 20px; text-transform: uppercase; letter-spacing: 1px;">
                     Технічне обслуговування</h2>
-                <p style="margin: 5px 0 0 0; color: #a6adc8; font-size: 14px;">Статус: <span
+                <p style="margin: 5px 0 0 0; color: #a6adc8; font-size: 13px;">Статус: <span
                         style="color: #f38ba8; font-weight: bold;">Тимчасово офлайн</span></p>
             </div>
         </div>
 
-        <p style="line-height: 1.6; font-size: 15px;">
+        <p style="line-height: 1.6; font-size: 14.5px; color: #cdd6f4;">
             Наразі ми проводимо повну модернізацію серверної інфраструктури, оптимізацію конфігурацій та капітальну
             перебудову ігрових зон разом із розширенням офіційної Вікіпедії проєкту. Сервер буде недоступний
             <strong>мінімум до кінця жовтня</strong>.
         </p>
 
-        <div style="background-color: #181825; border-radius: 8px; padding: 15px; margin-top: 15px;">
-            <h4 style="margin-top: 0; margin-bottom: 10px; color: #89b4fa; font-size: 14px;">🛠️ Що зараз оновлюється:
+        <div class="maintenance-sublist">
+            <h4 style="margin-top: 0; margin-bottom: 8px; color: #89b4fa; font-size: 13.5px;">🛠️ Що зараз оновлюється:
             </h4>
-            <ul style="margin: 0; padding-left: 20px; line-height: 1.5; font-size: 13.5px; color: #bac2de;">
-                <li style="margin-bottom: 5px;"><strong>Автоматизація:</strong> Оновлення плагінів та версії сервера.
+            <ul style="margin: 0; padding-left: 18px; line-height: 1.5; font-size: 13px; color: #bac2de;">
+                <li style="margin-bottom: 4px;"><strong>Автоматизація:</strong> Оновлення плагінів та версії сервера.
                 </li>
-                <li style="margin-bottom: 5px;"><strong>Світ та лор:</strong> Оновлення Вікі.
-                </li>
+                <li style="margin-bottom: 4px;"><strong>Світ та лор:</strong> Оновлення Вікі.</li>
                 <li><strong>Архітектура:</strong> Зведення нових унікальних будівель та інфраструктурних об'єктів.</li>
             </ul>
         </div>
 
         <p
-            style="text-align: center; margin-top: 25px; margin-bottom: 0; font-size: 14px; color: #a6adc8; font-style: italic;">
+            style="text-align: center; margin-top: 20px; margin-bottom: 0; font-size: 13.5px; color: #a6adc8; font-style: italic;">
             Приєднуйтесь до нашого Discord, щоб першими дізнатися про дату грандіозного відкриття!
         </p>
+    </div> -->
 
-        <style>
-            @keyframes spin {
-                100% {
-                    transform: rotate(360deg);
-                }
-            }
-        </style>
+    <!-- Основна сітка швидкої навігації -->
+    <main class="main-content">
+        <h2 class="section-title">✨ Швидка Навігація</h2>
+
+        <!-- Основні великі картки -->
+        <div class="cards-grid">
+
+            <a href="map.html" class="card">
+                <div class="card-icon">🗺️</div>
+                <h3>Онлайн Карта</h3>
+                <p>Переглядайте світ та території у реальному часі через BlueMap.</p>
+                <span class="card-link">Відкрити карту →</span>
+            </a>
+
+            <a href="chronicle.html" class="card">
+                <div class="card-icon">✅</div>
+                <h3>Правила</h3>
+                <p>Правила яких треба дотримуватися.</p>
+                <span class="card-link">Переглянути →</span>
+            </a>
+
+            <a href="discord.html" class="card">
+                <div class="card-icon">💬</div>
+                <h3>Discord Спільнота</h3>
+                <p>Онлайн учасники, спілкування з гравцями та анонси подій.</p>
+                <span class="card-link">Приєднатися →</span>
+            </a>
+
+            <a href="./wiki/#/" class="card">
+                <div class="card-icon">📚</div>
+                <h3>Читати Вікі</h3>
+                <p>Досліджуйте хроніки, лор світу, фракції та історію проєкту.</p>
+                <span class="card-link">Перейти до Вікі →</span>
+            </a>
+
+            <a href="news.html" class="card">
+                <div class="card-icon">📰</div>
+                <h3>Новини Королівства</h3>
+                <p>Останні оновлення, події та свіжі релізи.</p>
+                <span class="card-link">Переглянути →</span>
+            </a>
+
+        </div>
+
+        <!-- Допоміжні кнопки прямо під картками -->
+        <div class="resources-grid" style="margin-top: 20px;">
+            <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing"
+                class="resource-btn" target="_blank">📖 Гугл-Літопис</a>
+            <a href="https://discord.gg/XUUGknswwe" class="resource-btn discord-btn" target="_blank">💬 Наш Discord</a>
+            <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
+                class="resource-btn" target="_blank">📝 Форма Сервера</a>
+            <a href="main.html" class="resource-btn">🏠 Вітальна Сторінка</a>
+            <button id="openModalBtn" class="resource-btn">📜 Відкрити Останній Розділ Літопису</button>
+        </div>
+
+        <!-- Підключаємо стилі та скрипт Asciinema Player -->
+        <!--    <link rel="stylesheet" type="text/css"
+            href="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.css" />
+        <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.8.0/dist/bundle/asciinema-player.min.js"></script> -->
+
+        <!-- Контейнер для 3D-сцени -->
+        <!--  <div id="three-container"
+            style="width: 100%; height: 350px; display: flex; justify-content: center; align-items: center; position: relative; overflow: hidden;">
+        </div> -->
+
+        <!-- Контейнер, де з'явиться термінал -->
+        <!--   <div id="terminal-container" style="max-width: 800px; margin: 30px auto;"></div> -->
+
+        <!-- Повідомлення та бейджі -->
+        <div class="content-box" style="margin-top: 30px;">
+            <p>
+                <span class="badge">Важливо!</span> Через велику кількість даних ми не можемо завантажити усе разом,
+                тому
+                нам доведеться частіше робити малі оновлення. Просимо усіх запастися терпінням!!
+            </p>
+            <span class="badge">Оновлення!</span> Додано новий розділ новин, сподіваємось, тепер ви будете в курсі усіх
+            свіжих оновлень.
+        </div>
+
+        <div class="content-box">
+            <p class="text-highlight">
+                Вітаємо на сайті сервера! Тут ви знайдете найсвіжіші новини та оновлення.
+            </p>
+            <p>
+                <span class="badge">Оновлення!</span> Ми щойно запустили нову функцію, яка зробить ваш досвід ще кращим.
+            </p>
+            <p>
+                <span class="badge">Новинка!</span> Додано новий розділ з корисними порадами та гайдами для
+                користувачів.
+                (Увага! Цей розділ більше не підтримується.)
+            </p>
+            <p>
+                <span class="badge">Подія!</span> Не пропустіть наші нові події, де ми розповімо про майбутні плани та
+                відповімо на ваші запитання.
+            </p>
+        </div>
+
+        <!-- Ресурси та завантаження (файли та скрипти) -->
+        <h2 class="section-title" style="margin-top: 40px;">📥 Ресурси та Завантаження</h2>
+        <div class="resources-grid">
+            <a class="resource-btn" href="files/rules.txt" download>📄 Скачати правила сервера</a>
+            <button onclick="downloadARGFiles()" class="resource-btn accent">
+                ⚙️ Завантажити скрипт автоматизації v1.0.3
+            </button>
+            <a class="resource-btn" href="extension.html">🧩 Завантажити розширення</a>
+        </div>
+    </main>
+
+    <!-- Секретна амеба (пасхалка) -->
+    <div style="text-align: center; margin: 30px 0;">
+        <img id="secret-ameba" src="images/earth-icon.png" alt="earth"
+            style="width: 40px; height: 40px; cursor: pointer; opacity: 0.4; transition: all 0.3s ease;"
+            onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='0.4'">
     </div>
 
-    <div class="server-links">
-        <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing"
-            class="btn btn-chronicle" target="_blank">Читати Літопис</a>
-
-        <a href="https://discord.gg/XUUGknswwe" class="btn btn-discord" target="_blank">Наш Discord</a>
-
-        <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
-            class="btn btn-form" target="_blank">Наш Форма</a>
-
-        <a href="main.html" class="btn btn-hi">Вітальна Сторінка</a>
-
+    <!-- Модальні вікна -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>📖 Сувій Літопису</h2>
+            <p>Новий розділ уже доступний на вікі</p>
+            <a href="./wiki/#/" class="copy-btn"
+                style="display:inline-block; margin-top:15px; text-decoration:none;">Читати Розділ XXV</a>
+        </div>
     </div>
-
-    <div class="content">
-        <p>
-            <span class="badge">Важливо!</span> Через велику кількість данних ми не можемо завантажити усе разом тому
-            нам доведеться частіше робити малі оновлення просимо усіх запастися терпінням!!
-        </p>
-        <span class="badge">Оновлення!</span> Додано новий розділ новин сподіваємось тепер ви будете в курсі усіх свіжих
-        оновленнь
-    </div>
-
-
-    <div class="content">
-        <p class="text-highlight">
-            Вітаємо на сайті сервера! Тут ви знайдете найсвіжіші новини та оновлення.
-
-        <p>
-            <span class="badge">Оновлення!</span> Ми щойно запустили нову функцію, яка зробить ваш досвід ще кращим.
-
-        <p>
-            <span class="badge">Новинка!</span> Додано новий розділ з корисними порадами та гайдами для користувачів.
-            (Увага! Цей розділ більше не підтримується.)
-        </p>
-        <p>
-            <span class="badge">Подія!</span> Не пропустіть наш наступний вебінар, де ми розповімо про майбутні плани та
-            відповімо на ваші запитання.
-        </p>
-        <p>
-            <span class="badge">Важливо!</span> Зверніть увагу на нові правила користування сайтом, щоб забезпечити
-            безпеку та комфорт для всіх відвідувачів.
-        </p>
-    </div>
-
-    <div class="content">
-        <p>
-            Цікаві файли та ресурси для завантаження:
-        </p>
-
-        <a class="btn btn-download" href="files/rules.txt" download>Скачати правила сервера</a>
-
-        <button onclick="downloadARGFiles()" class="btn btn-download btn-download-arg">
-            📥 Завантажити скрипт автоматизації сервера v1.0.3
-        </button>
-
-        <a class="btn btn-download" href="extension.html">Завантажити розширення</a>
-
-    </div>
-
-
-
-
-    <footer class="footer">
-        <p style="margin: 5px 0;">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.
-        </p>
-
-        <p class="footer" style="margin: 5px 0; font-size: 0.9em; color: #a6adc8;">Базується на <span
-                style="color: #89b4fa;">Paper
-                26.2</span></p>
-
-        <p class="footer" style="margin: 10px 0 0 0; font-size: 0.9em;">
-
-            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
-                style="color: #f5c2e7; text-decoration: none; font-weight: bold;">GitHub Репозиторій</a>
-        </p>
-
-        <button class="btn-secret" onclick="triggerSecretEasterEgg()">Не натискати!</button>
-
-    </footer>
 
     <div id="rulesModal" class="modal">
         <div class="modal-content">
             <span class="close-rules">&times;</span>
             <h2>📜 Правила Королівства</h2>
-            <p>Правила можна прочитати у відповідному розділі</p>
+            <p>Правила можна прочитати у відповідному розділі або завантажити у файлі нижче.</p>
         </div>
     </div>
 
@@ -206,13 +280,69 @@
         <div class="modal-content">
             <span class="close-lore">&times;</span>
             <h2>📖 Літопис</h2>
-            <p>Ви можете прочитати літопис сервера на вікі</p>
+            <p>Ви можете прочитати літопис сервера на вікі або через Google Docs.</p>
         </div>
     </div>
 
+    <!-- Аудіоефекти для пасхалок та кнопок -->
+    <audio id="secret-sound" src="sounds/button_click.wav" preload="auto"></audio>
+    <audio id="click-sound" src="sounds/click.ogg" preload="auto"></audio>
+    <audio id="success-sound" src="sounds/explosion.ogg" preload="auto"></audio>
+    <audio id="console-sound" src="sounds/connetc_loop.wav" preload="auto"></audio>
 
+    <!-- Підвал (Footer) без зайвих ліній -->
+    <footer class="site-footer">
+        <p class="footer-text">© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-text sub">Базується на <span style="color: #89b4fa;">Paper 1.21+</span></p>
+        <p class="footer-text">
+            <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank"
+                class="footer-link">GitHub Репозиторій</a>
+        </p>
+        <div style="margin-top: 10px;">
+            <button class="btn-secret" onclick="triggerSecretEasterEgg()">[ Не натискати! ]</button>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
+
+    <script>
+        // Ховаємо прелоадер через 5 секунд (5000 мілісекунд)
+        window.addEventListener("load", function () {
+            setTimeout(function () {
+                let preloader = document.getElementById("page-preloader");
+                preloader.classList.add("loaded");
+            }, 5000); // 5 секунд
+        });
+    </script>
+
+    <!-- <i class="fa-solid fa-terminal"></i> Термінал сервера
+        <i class="fa-solid fa-shield-halved"></i> Захист і правила
+        <i class="fa-brands fa-discord"></i> Наш Discord
+
+        <i data-feather="map"></i> Онлайн Карта
+        <i data-feather="book-open"></i> Читати Вікі
+        <i data-feather="cpu"></i> Статус ядра
+
+        <a href="https://github.com/vadymhusarovv-stack/Super_Server_Site" target="_blank" class="resource-btn"
+            style="display: inline-flex; align-items: center; gap: 8px;">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" alt="GitHub" width="20"
+                height="20" style="filter: invert(1);">
+            <span>GitHub Репозиторій</span>
+        </a>
+
+        <i class="ti ti-map-pins"></i> Карта світу
+        <i class="ti ti-settings-code"></i> Конфігурація
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-folder-lock">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M13 19h-8a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v2" />
+            <path d="M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2" />
+            <path d="M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5" />
+        </svg>
+
+        <div id="github-icon-container"></div> -->
 
 </body>
 

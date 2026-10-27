@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <script>
+        const referrer = document.referrer;
+        const cameFromWelcome = referrer.includes('main.html');
+
+        if (localStorage.getItem('skip_welcome') !== 'true' && !cameFromWelcome) {
+            window.location.href = '../main.html';
+        }
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeterna — Королівство Без Назви</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/style_new.css">
+</head>
+
+<body>
+
+    <!-- Верхня навігація -->
+    <header class="top-nav">
+        <div class="nav-logo">👑 SUPER SERVER</div>
+        <nav class="nav-links">
+            <a href="./wiki/#/">📚 Вікі</a>
+            <a href="map_old.html">🗺️ Карта</a>
+            <a href="discord_old.html">💬 Discord</a>
+            <a href="news_old.html">📰 Новини</a>
+            <a href="chronicle_old.html">📜 Правила</a>
+            <a href="#" id="openModalBtn">📜 Літопис</a>
+        </nav>
+    </header>
+
+    <!-- Hero Секція -->
+    <section class="hero">
+        <h1 class="hero-title">SUPER SERVER</h1>
+        <p class="hero-subtitle">
+            Королівство Без Назви — зануртеся в атмосферний світ, досліджуйте Пурпурну зону та розкрийте таємниці
+            Організації.
+        </p>
+
+        <!-- Блок IP та Тост -->
+        <div class="ip-container">
+            <span class="copy-toast" id="copyToast">Скопійовано!</span>
+            <span class="ip-address" id="serverIP">listing-dans.gl.joinmc.link</span>
+            <button class="copy-btn" onclick="copyServerIP()">📋 Копіювати IP</button>
+        </div>
+
+        <div style="margin-top: 10px;">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>Статус: <strong id="server-status">Перевірка...</strong></span>
+                <span id="server-online-players" style="margin-left: 5px;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основна частина -->
+    <main class="main-content">
+        <h2 class="section-title">✨ Швидка Навігація</h2>
+        <div class="cards-grid">
+            <a href="./wiki/#/" class="card">
+                <div class="card-icon">📚</div>
+                <h3>База Знань (Вікі)</h3>
+                <p>Хроніки Становлення Всесвіту, лор фракцій, Алхімік Браун та протоколи.</p>
+                <span class="card-link">Читати Вікі →</span>
+            </a>
+
+            <a href="map_old.html" class="card">
+                <div class="card-icon">🗺️</div>
+                <h3>Онлайн Карта</h3>
+                <p>Оглядайте території Королівства та Пурпурної зони в реальному часі.</p>
+                <span class="card-link">Відкрити карту →</span>
+            </a>
+
+            <a href="discord_old.html" class="card">
+                <div class="card-icon">💬</div>
+                <h3>Discord Спільнота</h3>
+                <p>Онлайн учасники, спілкування з гравцями та анонси подій.</p>
+                <span class="card-link">Приєднатися →</span>
+            </a>
+
+            <a href="news_old.html" class="card">
+                <div class="card-icon">📰</div>
+                <h3>Новини Світу</h3>
+                <p>Останні оновлення, технічні роботи та свіжі релізи.</p>
+                <span class="card-link">Переглянути →</span>
+            </a>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 40px;">📥 Ресурси та Завантаження</h2>
+        <div class="resources-grid">
+            <a href="../files/rules.txt" class="resource-btn" download>📄 Скачати правила (.txt)</a>
+            <button onclick="downloadARGFiles()" class="resource-btn accent">⚙️ Скрипт автоматизації v1.0.3</button>
+            <a href="../extension.html" class="resource-btn">🧩 Розширення для браузера</a>
+            <a href="https://docs.google.com/document/d/1PPX2wfaFQ3OOQ6J_U3QfcS6IJ7FxD2Ctquu4XIwOmRc/edit?usp=sharing"
+                target="_blank" class="resource-btn">📖 Гугл-Літопис</a>
+            <a href="https://sites.google.com/view/superserverminecraftform/%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0-%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0"
+                target="_blank" class="resource-btn">📝 Форма Сервера</a>
+            <a href="../main.html" class="resource-btn">🏠 Вітальна Сторінка</a>
+        </div>
+    </main>
+
+    <!-- Секретна амеба -->
+    <div style="text-align: center; margin-bottom: 20px;">
+        <img id="secret-ameba" src="../images/earth-icon.png" alt="earth"
+            style="width: 32px; height: 32px; cursor: pointer; opacity: 0.3; transition: opacity 0.3s;"
+            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='0.3'">
+    </div>
+
+    <!-- 1. Модальне вікно Літопису -->
+    <div id="myModal" class="modal"
+        style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(4px);">
+        <div
+            style="background:#1a1a1a; border:1px solid #dca355; color:#e0e0e0; margin:12% auto; padding:25px; border-radius:10px; max-width:450px; position:relative;">
+            <span class="close-btn"
+                style="position:absolute; right:15px; top:10px; cursor:pointer; font-size:1.5rem; color:#888;">&times;</span>
+            <h2 style="color:#dca355; margin-bottom:10px;">📖 Сувій Літопису</h2>
+            <p>Новий розділ уже доступний на вікі!</p>
+            <a href="./wiki/#/" class="copy-btn"
+                style="display:inline-block; margin-top:15px; text-decoration:none;">Читати Розділ XXV</a>
+        </div>
+    </div>
+
+    <!-- 2. Модальне вікно Правил -->
+    <div id="rulesModal" class="modal"
+        style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(4px);">
+        <div
+            style="background:#1a1a1a; border:1px solid #dca355; color:#e0e0e0; margin:12% auto; padding:25px; border-radius:10px; max-width:450px; position:relative;">
+            <span class="close-rules"
+                style="position:absolute; right:15px; top:10px; cursor:pointer; font-size:1.5rem; color:#888;">&times;</span>
+            <h2 style="color:#dca355; margin-bottom:10px;">📜 Правила Сервера</h2>
+            <p>Дотримуйтесь порядку та поважайте інших гравців Королівства.</p>
+        </div>
+    </div>
+
+    <!-- 3. Модальне вікно Лору -->
+    <div id="loreModal" class="modal"
+        style="display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(4px);">
+        <div
+            style="background:#1a1a1a; border:1px solid #dca355; color:#e0e0e0; margin:15% auto; padding:25px; border-radius:10px; max-width:450px; position:relative;">
+            <span class="close-lore"
+                style="position:absolute; right:15px; top:10px; cursor:pointer; font-size:1.5rem; color:#888;">&times;</span>
+            <h2 style="color:#dca355; margin-bottom:10px;">🌌 Таємниці Організації</h2>
+            <p>Пурпурна зона приховує більше, ніж здається на перший погляд...</p>
+        </div>
+    </div>
+
+    <!-- Звуки -->
+    <audio id="secret-sound" src="../sounds/button_click.wav" preload="auto"></audio>
+    <audio id="click-sound" src="../sounds/click.ogg" preload="auto"></audio>
+    <audio id="success-sound" src="../sounds/explosion.ogg" preload="auto"></audio>
+    <audio id="console-sound" src="../sounds/connetc_loop.wav" preload="auto"></audio>
+
+    <!-- Підвал (Footer) -->
+    <footer class="site-footer">
+        <p>© 2026 Королівство Без Назви. Усі права захищені магією Святилища.</p>
+        <p class="footer-sub">Ядро Paper 1.21+ | GitHub Pages</p>
+        <button onclick="triggerSecretEasterEgg()"
+            style="background:none; border:none; color:#333; cursor:pointer; font-size:0.75rem; margin-top:10px;">[secret]</button>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
