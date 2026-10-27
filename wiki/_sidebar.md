@@ -35,6 +35,7 @@
   - [🧭 Розділ XXVII: Сліди Організації — Безвідповідні Питання](chapters/chapter27.md)
   - [🧭 Розділ XXVIII: Аномальний Великий Підвал знову ожив](chapters/chapter28.md)
   - [🧭 Розділ XXIX: Світ повертається у норму — але чи надовго це?](chapters/chapter29.md)
+  - [🧭 Розділ XXX: Ущелина Матерії — Новий Світ за Скелями](chapters/chapter30.md)
 
 - **👤 Персонажі**
   - [👥 Підрозділи та Класифікація НПС Королівства](whatisit/whatisitnpc.md)
@@ -75,7 +76,13 @@
   - [🎣 Наглядач Рибальского Причалу](lore/fish.md)
   - [🌾 Майстер Томас](lore/tom_farm.md)
   - [📦 Наглядач Складу Віталій](lore/vitalick_sklad.md)
+  - [🕵️‍♂️ Антон](lore/anton.md)
+  - [👨‍🍳 Торговець Тоні](lore/tony.md)
+  - [🍺 Бармен Семен](lore/semen.md)
+  - [👷‍♂️ Будівельник Георгій](lore/george.md)
+  - [🧭 Провідник Валерій](lore/valery.md)
   - [🧪 Secret Dealer](lore/shop_secret_dealer.md)
+  - [🌷 Торговець Євгеній](lore/yevgeny.md)
 
   - [Культисти](lore/cultists/cultists.md)
     - [Культист-відправник](lore/cultists/sender.md)
@@ -98,6 +105,9 @@
   - [🌌 Географічний Атлас](locations/name.md)
   - [⛩️ Святилище Спокою](locations/shrine_of_peace.md)
   - [🌌 Головний портал у Незер](locations/nether_portal.md)
+  - [🔵 Ущелина Матерії](locations/matery_node.md)
+    - [🔍 Секрети та Пасхалки Ущелини Матерії](locations/secrets_matery_node.md)
+    - [🔵 Архітектурні Об'єкти та Інфраструктура Ущелини Матерії](locations/builds_matery_node.md)
 
   - [🟡 Золотиста зона](locations/golden_zone.md)
     - [🟡 Будівлі Зони](locations/golden_zone_border.md)
@@ -111,24 +121,30 @@
     - [🟪 Таверна «У Павука»](locations/spider_tavern.md)
     - [🟪 Цікавинки та Інфраструктура Пурпурної Зони](locations/purple_interest_points.md)
     - [🟪 Житлові Будинки та Цивільні Квартали](locations/purple_residential.md)
+
   - [🔴 Червона зона](locations/red_zone.md)
     - [🏛️ Центральна Площа](locations/red_middle.md)
     - [🟥 Торгові Павільйони](locations/red_commerce.md)
     - [🏛️ Резиденція Керівника Селища](locations/red_typhoidsack26.md)
     - [📦 Великий Склад](locations/red_big_storage.md)
+  
   - [🟠 Помаранчева зона](locations/orange_zone.md)
     - [🟧 Будівлі зони](locations/orange_main.md)
 
   - [🟢 Темно-зелена зона](locations/green_island_zone.md)
     - [🟩 Небесний Острів Розлому](locations/gold_sky_island.md)
+  
   - [💠 Бірюзова зона](locations/cyan_zone_entrance.md)
     - [🧪 Лабораторія Aeterna(Вхід)](locations/aeterna_entrance.md)
     - [🧪 Лабораторія Aeterna](locations/aeterna_lab.md)
+  
   - [🟡 Жовта зона](locations/yellow_zone_home.md)
     - [🟨 Резиденція Interest_UA](locations/yellow_subzone.md)
     - [🕳️ Аномальний Комплекс «Великий Підвал»](locations/great_basement.md)
+  
   - [✳️ Зелена зона](locations/inner_green_mystery.md)
     - [🟩 Початок території](locations/spawn_box.md)
+  
   - [⚪ Світло-сіра зона](locations/grey_monument_zone.md)
     - [🗿 Кам'яний Гігант Aeterna](locations/aeterna_giant.md)
     - [🪵 Напівпідземний Комплекс](locations/underground_base.md)
@@ -148,6 +164,7 @@
   - [💾 Резервні копії](tech/backups_info.md)
   - [📦 Офіційна збірка](tech/client_modpack.md)
   - [🎭 Колегія Архітекторів](tech/architects.md)
+  - [🌌 Хроніки Становлення Всесвіту](tech/history.md)
 
 - **📘 Гайди**
   - [📘 На яку інформацію чекати?](whatisit/whatisitguild.md)
